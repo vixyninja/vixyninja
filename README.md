@@ -1,7 +1,7 @@
 <h1 align="center"><b>Hi , I'm Huynh Hong Vy </b><img src="./assets/hi.gif" width="35"></h1>
 
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=24&pause=1000&color=F7DB1A&center=true&vCenter=true&width=1000&height=24&lines=Life+is+a+journey+of+self-discovery+and+endless+possibilities.+;Every+person+has+a+unique+story+waiting+to+be+told.;In+the+tapestry+of+humanity%2C+each+individual+thread+weaves+a+vibrant+and+diverse+picture.;The+beauty+of+life+lies+in+embracing+both+joys+and+challenges" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=24&pause=1000&color=F7DB1A&center=true&vCenter=true&width=1080&height=24&lines=Life+is+a+journey+of+self-discovery+and+endless+possibilities.+;Every+person+has+a+unique+story+waiting+to+be+told.;In+the+tapestry+of+humanity%2C+each+individual+thread+weaves+a+vibrant+and+diverse+picture.;The+beauty+of+life+lies+in+embracing+both+joys+and+challenges" alt="Typing SVG" /></a>
 </p>
 
 ## <picture><img src = "./assets/about_me.gif" width =30px>**About me**</picture>
