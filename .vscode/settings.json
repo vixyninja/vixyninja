@@ -1,0 +1,211 @@
+{
+  // Workbench
+  "workbench.startupEditor": "none",
+  "workbench.editor.labelFormat": "default",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "left",
+  "workbench.list.smoothScrolling": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "zenMode.fullScreen": true,
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+  "window.commandCenter": true,
+  "window.titleSeparator": " - ",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Dracula",
+  // Explorer
+  "explorer.compactFolders": false,
+  // Editor and breadcrumbs
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [120],
+  "editor.minimap.enabled": true,
+  "editor.hover.enabled": true,
+  "editor.fontSize": 10.5,
+  "editor.lineHeight": 1.3,
+  "editor.detectIndentation": false,
+  "editor.snippetSuggestions": "bottom",
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.formatOnPaste": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.mouseWheelScrollSensitivity": 1,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.linkedEditing": true,
+  "editor.fontFamily": "Monaco, monospace, Meslo LG M DZ for Powerline, SF Pro Regular",
+  "editor.glyphMargin": true,
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.hover.sticky": true,
+  "editor.hover.delay": 500,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "editor.codeLensFontFamily": "Monaco",
+  "editor.codeLensFontSize": 11,
+  "editor.inlayHints.fontSize": 11,
+  // Git
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  // GitCopilot
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "Log": false,
+    "javascript": true
+  },
+  // Debug
+  "debug.console.wordWrap": true,
+  "debug.toolBarLocation": "docked",
+  "debug.inlineValues": "on",
+  "debug.console.fontFamily": "Monaco",
+  "debug.console.fontSize": 10.5,
+  // Files and search
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "files.exclude": {
+    "USE_GITIGNORE": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  // Terminal
+  "terminal.integrated.copyOnSelection": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.external.linuxExec": "x-terminal-emulator",
+  "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
+  "terminal.integrated.fontSize": 10.5,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.enableFileLinks": "on",
+  "terminal.integrated.env.linux": {
+    // "PORT": "4000"
+  },
+
+  // Javascript & TypeScript
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.validate.enable": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "[javascript]": {
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+
+  // Django
+  "files.associations": {
+    "*.html": "html",
+    "**/templates/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  // ##################### Extensions ##################### //
+  // Material icon theme extension
+  "material-icon-theme.folders.theme": "specific",
+  // Colorize (in big files you may want to disable this)
+  "colorize.hide_current_line_decorations": false,
+  "colorize.include": [".tsx", ".jsx", ".ts", ".js"],
+  "colorize.languages": [
+    "typescriptreact",
+    "javascriptreact",
+    "javascript",
+    "typescript",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "pcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  // CSpell checker extension
+  "cSpell.enabled": true,
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.enableFiletypes": ["shellscript"],
+  "cSpell.userWords": ["Meslo", "nestjs", "pcss", "vixyninja"],
+  // Prettier extension
+  // Dart extension
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.lineLength": 120,
+  "dart.flutterSdkPath": "/home/vixyninja/snap/flutter/common/flutter",
+  "dart.openDevTools": "flutter",
+  "dart.showTodos": true,
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.enableSnippets": true,
+  "dart.hotReloadOnSave": "all",
+  "dart.hotReloadProgress": "statusBar",
+  "dart.flutterCreateOrganization": "vixyninja",
+  "dart.enableSdkFormatter": true,
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.files.color": "#42a5f5",
+  "material-icon-theme.opacity": 1,
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.hidesExplorerArrows": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 120,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+
+  "chat.editor.fontSize": 10.5,
+  "markdown.preview.fontSize": 10.5,
+  "markdown.preview.lineHeight": 1.3,
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+    "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
+    "docker*": "docker-compose*, .dockerignore",
+    ".env": ".env*,",
+    "package.json": "package-lock.json, yarn.lock, bun.sh",
+    "tsconfig.json": "tsconfig.build.json, tsconfig.spec.json, tsconfig.app.json, tsconfig.e2e.json, tsconfig.json",
+    "jest*": "jest.config.js, jest.config.ts, jest.config",
+    "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
+    ".prettierrc": ".prettierrc.js, .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, .prettierrc.toml, .prettierrc.json5, .prettierignore"
+  },
+  "extensions.ignoreRecommendations": true,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 2
+}
