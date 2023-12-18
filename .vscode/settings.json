@@ -13,20 +13,51 @@
   "window.titleSeparator": " - ",
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "Dracula",
+  // Window
+  "window.zoomLevel": 0.5,
+  "window.restoreFullscreen": true,
   // Explorer
   "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+    "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
+    "docker*": "docker-compose*, .dockerignore",
+    ".env": ".env*,",
+    "package.json": "package-lock.json, yarn.lock, bun.sh",
+    "tsconfig.json": "tsconfig.build.json, tsconfig.spec.json, tsconfig.app.json, tsconfig.e2e.json, tsconfig.json",
+    "jest*": "jest.config.js, jest.config.ts, jest.config",
+    "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
+    ".prettierrc": ".prettierrc.js, .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, .prettierrc.toml, .prettierrc.json5, .prettierignore"
+  },
   // Editor and breadcrumbs
+  "editor.tabSize": 2,
   "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [120],
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.fontSize": 10.5,
-  "editor.lineHeight": 1.3,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 18,
   "editor.detectIndentation": false,
   "editor.snippetSuggestions": "bottom",
-  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.showClasses": true,
+  "editor.suggest.showConstructors": true,
+  "editor.suggest.showFunctions": true,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.showProperties": true,
+  "editor.suggest.showVariables": true,
+  "editor.suggest.showConstants": true,
+  "editor.suggest.showEnums": true,
+  "editor.suggest.showEnumMembers": true,
+  "editor.suggest.showKeywords": true,
+
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.suggest.showInterfaces": true,
   "editor.suggest.localityBonus": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.formatOnPaste": false,
@@ -35,7 +66,7 @@
   "editor.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "Monaco, monospace, Meslo LG M DZ for Powerline, SF Pro Regular",
+  "editor.fontFamily": "Monaco, monospace, Meslo LG M DZ for Powerline,SF Pro Regular",
   "editor.glyphMargin": true,
   "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -51,8 +82,8 @@
   "editor.suggestSelection": "first",
   "editor.inlineSuggest.enabled": true,
   "editor.codeLensFontFamily": "Monaco",
-  "editor.codeLensFontSize": 11,
-  "editor.inlayHints.fontSize": 11,
+  "editor.codeLensFontSize": 12,
+  "editor.inlayHints.fontSize": 12,
   // Git
   "git.enableSmartCommit": true,
   "diffEditor.ignoreTrimWhitespace": true,
@@ -72,7 +103,7 @@
   "debug.toolBarLocation": "docked",
   "debug.inlineValues": "on",
   "debug.console.fontFamily": "Monaco",
-  "debug.console.fontSize": 10.5,
+  "debug.console.fontSize": 12,
   // Files and search
   "files.defaultLanguage": "{activeEditorLanguage}",
   "files.exclude": {
@@ -93,7 +124,7 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.external.linuxExec": "x-terminal-emulator",
   "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
-  "terminal.integrated.fontSize": 10.5,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.enableFileLinks": "on",
   "terminal.integrated.env.linux": {
@@ -155,7 +186,7 @@
   ],
   // CSpell checker extension
   "cSpell.enabled": true,
-  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.language": "en,pt,pt_BR,es,fr,vi",
   "cSpell.enableFiletypes": ["shellscript"],
   "cSpell.userWords": ["Meslo", "nestjs", "pcss", "vixyninja"],
   // Prettier extension
@@ -173,7 +204,7 @@
   "dart.flutterCreateOrganization": "vixyninja",
   "dart.enableSdkFormatter": true,
   "material-icon-theme.folders.color": "#42a5f5",
-  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.files.color": "#42a5f5",
   "material-icon-theme.opacity": 1,
   "material-icon-theme.saturation": 1,
@@ -185,27 +216,9 @@
   "prettier.singleAttributePerLine": true,
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
-
   "chat.editor.fontSize": 10.5,
-  "markdown.preview.fontSize": 10.5,
-  "markdown.preview.lineHeight": 1.3,
-
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.expand": false,
-  "explorer.fileNesting.patterns": {
-    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
-    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
-    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
-    "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
-    "docker*": "docker-compose*, .dockerignore",
-    ".env": ".env*,",
-    "package.json": "package-lock.json, yarn.lock, bun.sh",
-    "tsconfig.json": "tsconfig.build.json, tsconfig.spec.json, tsconfig.app.json, tsconfig.e2e.json, tsconfig.json",
-    "jest*": "jest.config.js, jest.config.ts, jest.config",
-    "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
-    ".prettierrc": ".prettierrc.js, .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, .prettierrc.toml, .prettierrc.json5, .prettierignore"
-  },
   "extensions.ignoreRecommendations": true,
-  "editor.tabSize": 2,
-  "window.zoomLevel": 2
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
