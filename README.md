@@ -25,11 +25,11 @@ These are some of the major technologies that I use or have worked on in the pas
 
 **Basic**
 
-<img src="https://skillicons.dev/icons?i=html,css&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=html,css,figma&perline=8&theme=light" alt="My Skills" />
 
 **Programming Languages**
 
-<img src="https://skillicons.dev/icons?i=java,js,typescript,dart&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=java,js,typescript,dart,java,kotlin&perline=8&theme=light" alt="My Skills" />
 
 **Libraries and Frameworks**
 
@@ -37,15 +37,15 @@ These are some of the major technologies that I use or have worked on in the pas
 
 **Infrastructure**
 
-<img src="https://skillicons.dev/icons?i=firebase,docker,nodejs&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=firebase,googlecloud,docker,nodejs,gradle&perline=8&theme=light" alt="My Skills" />
 
 **Databases**
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&perline=8&theme=light" alt="My Skills" />
 
 **Tools**
 
-<img src="https://skillicons.dev/icons?i=vscode,postman,linux,androidstudio,git,github&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=vscode,androidstudio,idea,postman,linux,git,github&perline=8&theme=light" alt="My Skills" />
 
 ## Some of my stats :bar_chart:
 
