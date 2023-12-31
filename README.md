@@ -11,13 +11,7 @@
 - 💬 Talk to me about freelancing opportunities in the mobile app
 - 👯 I’m looking to collaborate on backend software engineering projects
 
-##
-
 <br>
-
-<div align="center">
-<img hight="200" width="200" alt="GIF" align="center" src="https://i.pinimg.com/originals/b8/a1/38/b8a138a955b1756c7d866701416818bc.gif">
-</div>
 
 ## Skill Set
 
