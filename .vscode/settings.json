@@ -3,7 +3,6 @@
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "default",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "left",
   "workbench.list.smoothScrolling": false,
   "workbench.editor.wrapTabs": true,
   "workbench.editor.tabSizing": "shrink",
@@ -27,7 +26,7 @@
     "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
     "docker*": "docker-compose*, .dockerignore",
     ".env": ".env*,",
-    "package.json": "package-lock.json, yarn.lock, bun.sh",
+    "package.json": "package-lock.json, yarn.lock, bun.sh, pnpm-lock.yaml",
     "tsconfig.json": "tsconfig.build.json, tsconfig.spec.json, tsconfig.app.json, tsconfig.e2e.json, tsconfig.json",
     "jest*": "jest.config.js, jest.config.ts, jest.config",
     "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
@@ -41,7 +40,7 @@
   "editor.rulers": [120],
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13.5,
   "editor.lineHeight": 18,
   "editor.detectIndentation": false,
   "editor.snippetSuggestions": "bottom",
@@ -66,7 +65,7 @@
   "editor.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "Monaco, monospace, Meslo LG M DZ for Powerline,SF Pro Regular",
+  "editor.fontFamily": "Monaco, monospace, Menlo, Monaco, 'Courier New', monospace",
   "editor.glyphMargin": true,
   "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -123,7 +122,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.external.linuxExec": "x-terminal-emulator",
-  "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.enableFileLinks": "on",
@@ -194,7 +193,7 @@
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
   "dart.lineLength": 120,
-  "dart.flutterSdkPath": "/home/vixyninja/snap/flutter/common/flutter",
+  "dart.flutterSdkPaths": ["home/vixyninja/fvm/versions"],
   "dart.openDevTools": "flutter",
   "dart.showTodos": true,
   "dart.flutterHotReloadOnSave": "all",
@@ -219,6 +218,10 @@
   "chat.editor.fontSize": 10.5,
   "extensions.ignoreRecommendations": true,
   "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.activityBar.location": "top",
+  "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   }
 }
