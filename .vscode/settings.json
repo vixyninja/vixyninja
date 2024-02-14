@@ -1,22 +1,21 @@
 {
-  "zenMode.fullScreen": true,
+  // Workbench
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "default",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": false,
   "workbench.editor.wrapTabs": true,
   "workbench.editor.tabSizing": "shrink",
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "Dracula",
-  "workbench.productIconTheme": "material-product-icons",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#0099AA33"
-  },
+  "zenMode.fullScreen": true,
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
   "window.commandCenter": true,
+  "window.restoreFullscreen": true,
+  "window.customTitleBarVisibility": "auto",
   "window.titleSeparator": " - ",
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0.5,
-  "window.restoreFullscreen": true,
+
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -28,26 +27,24 @@
     "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
     "docker*": "docker-compose*, .dockerignore",
     ".env": ".env*,",
-    "package.json": "package-lock.json, yarn.lock, bun.sh, pnpm-lock.yaml",
+    "package.json": "package-lock.json, yarn.lock, bun.sh",
     "tsconfig.json": "tsconfig.build.json, tsconfig.spec.json, tsconfig.app.json, tsconfig.e2e.json, tsconfig.json",
     "jest*": "jest.config.js, jest.config.ts, jest.config",
     "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
     ".prettierrc": ".prettierrc.js, .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, .prettierrc.toml, .prettierrc.json5, .prettierignore"
   },
+
   // Editor and breadcrumbs
+  "editor.tabSize": 2,
   "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [80],
-  "editor.minimap.renderCharacters": false,
+  "editor.rulers": [120],
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.fontSize": 13,
-  "editor.fontWeight": "600",
-  "editor.suggestFontSize": 13,
-  "editor.suggestLineHeight": 17,
-  "editor.formatOnType": true,
-  "editor.lineHeight": 17,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 18,
+  "editor.letterSpacing": 0,
   "editor.detectIndentation": false,
   "editor.snippetSuggestions": "bottom",
   "editor.suggest.showClasses": true,
@@ -60,16 +57,7 @@
   "editor.suggest.showEnums": true,
   "editor.suggest.showEnumMembers": true,
   "editor.suggest.showKeywords": true,
-  "editor.suggest.showUnits": true,
-  "editor.suggest.showValues": true,
-  "editor.suggest.showWords": true,
-  "editor.suggest.showColors": true,
-  "editor.suggest.showFiles": true,
-  "editor.suggest.showReferences": true,
-  "editor.suggest.showFolders": true,
-  "editor.suggest.filterGraceful": true,
-  "editor.suggest.shareSuggestSelections": true,
-  "editor.suggest.snippetsPreventQuickSuggestions": true,
+
   "editor.wordBasedSuggestions": "matchingDocuments",
   "editor.suggest.showInterfaces": true,
   "editor.suggest.localityBonus": true,
@@ -80,9 +68,9 @@
   "editor.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "Monaco, monospace, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Monaspace Neon, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": "'ss02', 'ss04'",
   "editor.glyphMargin": true,
-  "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.hover.sticky": true,
@@ -93,16 +81,18 @@
     "source.fixAll.eslint": "explicit",
     "source.fixAll": "explicit"
   },
-  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.suggestSelection": "first",
   "editor.inlineSuggest.enabled": true,
   "editor.codeLensFontFamily": "Monaco",
   "editor.codeLensFontSize": 12,
   "editor.inlayHints.fontSize": 12,
+
   // Git
   "git.enableSmartCommit": true,
   "diffEditor.ignoreTrimWhitespace": true,
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "never",
+
   // GitCopilot
   "github.copilot.enable": {
     "*": true,
@@ -112,12 +102,15 @@
     "Log": false,
     "javascript": true
   },
+  "chat.editor.fontSize": 10.5,
+
   // Debug
   "debug.console.wordWrap": true,
   "debug.toolBarLocation": "docked",
   "debug.inlineValues": "on",
   "debug.console.fontFamily": "Monaco",
   "debug.console.fontSize": 12,
+
   // Files and search
   "files.defaultLanguage": "{activeEditorLanguage}",
   "files.exclude": {
@@ -132,12 +125,13 @@
     "**/.build": true,
     "**/.gh-pages": true
   },
+
   // Terminal
   "terminal.integrated.copyOnSelection": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.external.linuxExec": "x-terminal-emulator",
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.fontFamily": "Monaco, 'Courier New', monospace",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.enableFileLinks": "on",
@@ -174,30 +168,12 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
+
   // ##################### Extensions ##################### //
+
   // Material icon theme extension
   "material-icon-theme.folders.theme": "specific",
-  // Colorize (in big files you may want to disable this)
-  "colorize.hide_current_line_decorations": false,
-  "colorize.include": [".tsx", ".jsx", ".ts", ".js"],
-  "colorize.languages": [
-    "typescriptreact",
-    "javascriptreact",
-    "javascript",
-    "typescript",
-    "css",
-    "sass",
-    "scss",
-    "less",
-    "pcss",
-    "sss",
-    "stylus",
-    "xml",
-    "svg",
-    "json",
-    "jsonc",
-    "yaml"
-  ],
+
   // CSpell checker extension
   "cSpell.enabled": true,
   "cSpell.language": "en,pt,pt_BR,es,fr,vi",
@@ -208,6 +184,7 @@
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
   "dart.lineLength": 120,
+  "dart.flutterSdkPath": "/home/vixyninja/snap/flutter/common/flutter",
   "dart.flutterSdkPaths": ["home/vixyninja/fvm/versions"],
   "dart.openDevTools": "flutter",
   "dart.showTodos": true,
@@ -221,8 +198,19 @@
   // Material Icon Theme
   "material-icon-theme.folders.color": "#42a5f5",
   "material-icon-theme.activeIconPack": "nest",
-  "material-icon-theme.files.color": "#90a4ae",
+  "material-icon-theme.files.color": "#42a5f5",
   "material-icon-theme.opacity": 1,
   "material-icon-theme.saturation": 1,
-  "material-icon-theme.hidesExplorerArrows": false
+  "material-icon-theme.hidesExplorerArrows": false,
+
+  // Prettier extension
+  "prettier.printWidth": 120,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+
+  // Handlebars
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
