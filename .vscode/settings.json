@@ -21,19 +21,19 @@
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
-  // "explorer.fileNesting.patterns": {
-  //   "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
-  //   ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
-  //   "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
-  //   "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
-  //   "docker*": "docker-compose*, .dockerignore",
-  //   ".env": ".env*,",
-  //   "package.json": "package-lock.json, yarn.lock, bun.sh, pnpm-lock.yaml",
-  //   "tsconfig.json": "tsconfig.build.json, tsconfig.spec.json, tsconfig.app.json, tsconfig.e2e.json, tsconfig.json",
-  //   "jest*": "jest.config.js, jest.config.ts, jest.config",
-  //   "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
-  //   ".prettierrc": ".prettierrc.js, .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, .prettierrc.toml, .prettierrc.json5, .prettierignore"
-  // },
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+    "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
+    "docker*": "docker-compose*, .dockerignore",
+    ".env": ".env*,",
+    "package.json": "package-lock.json, yarn.lock, bun.sh, pnpm-lock.yaml",
+    "tsconfig.json": "tsconfig.build.json, tsconfig.spec.json, tsconfig.app.json, tsconfig.e2e.json, tsconfig.json",
+    "jest*": "jest.config.js, jest.config.ts, jest.config",
+    "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
+    ".prettierrc": ".prettierrc.js, .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, .prettierrc.toml, .prettierrc.json5, .prettierignore"
+  },
   // Editor and breadcrumbs
   "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
