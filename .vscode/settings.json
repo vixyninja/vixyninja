@@ -15,7 +15,7 @@
   "window.customTitleBarVisibility": "auto",
   "window.titleSeparator": " - ",
   "window.titleBarStyle": "custom",
-
+  "window.zoomLevel": 0.3,
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -68,7 +68,7 @@
   "editor.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "Monaspace Neon, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Monaspace Xeon, Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": "'ss02', 'ss04'",
   "editor.glyphMargin": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -91,7 +91,7 @@
   "git.enableSmartCommit": true,
   "diffEditor.ignoreTrimWhitespace": true,
   "git.autofetch": true,
-  "git.openRepositoryInParentFolders": "never",
+  "git.openRepositoryInParentFolders": "always",
 
   // GitCopilot
   "github.copilot.enable": {
@@ -131,7 +131,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.external.linuxExec": "x-terminal-emulator",
-  "terminal.integrated.fontFamily": "Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Monaco",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.enableFileLinks": "on",
@@ -212,5 +212,6 @@
   // Handlebars
   "[handlebars]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  }
+  },
+  "redhat.telemetry.enabled": false
 }
