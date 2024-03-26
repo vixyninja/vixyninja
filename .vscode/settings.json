@@ -6,7 +6,6 @@
   "workbench.list.smoothScrolling": false,
   "workbench.editor.wrapTabs": true,
   "workbench.editor.tabSizing": "shrink",
-  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "Dracula",
   "zenMode.fullScreen": true,
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
@@ -15,7 +14,7 @@
   "window.customTitleBarVisibility": "auto",
   "window.titleSeparator": " - ",
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0.3,
+  "window.zoomLevel": 0,
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -42,8 +41,8 @@
   "editor.rulers": [120],
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 18,
+  "editor.fontSize": 13.5,
+  "editor.lineHeight": 16.5,
   "editor.letterSpacing": 0,
   "editor.detectIndentation": false,
   "editor.snippetSuggestions": "bottom",
@@ -68,7 +67,7 @@
   "editor.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "Monaspace Xeon, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Monaspace Xeon, Monaco, monospace",
   "editor.fontLigatures": "'ss02', 'ss04'",
   "editor.glyphMargin": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -95,7 +94,7 @@
 
   // GitCopilot
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": true,
     "markdown": false,
     "scminput": false,
@@ -106,7 +105,7 @@
 
   // Debug
   "debug.console.wordWrap": true,
-  "debug.toolBarLocation": "docked",
+  // "debug.toolBarLocation": "docked",
   "debug.inlineValues": "on",
   "debug.console.fontFamily": "Monaco",
   "debug.console.fontSize": 12,
@@ -178,14 +177,12 @@
   "cSpell.enabled": true,
   "cSpell.language": "en,pt,pt_BR,es,fr,vi",
   "cSpell.enableFiletypes": ["shellscript"],
-  "cSpell.userWords": ["Meslo", "nestjs", "pcss", "vixyninja"],
 
   // Dart extension
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
   "dart.lineLength": 120,
-  "dart.flutterSdkPath": "/home/vixyninja/snap/flutter/common/flutter",
-  "dart.flutterSdkPaths": ["home/vixyninja/fvm/versions"],
+  "dart.flutterSdkPath": "/home/vixyninja/fvm/default",
   "dart.openDevTools": "flutter",
   "dart.showTodos": true,
   "dart.flutterHotReloadOnSave": "all",
@@ -213,5 +210,8 @@
   "[handlebars]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "workbench.activityBar.location": "top"
 }
