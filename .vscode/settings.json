@@ -2,22 +2,22 @@
   // Workbench
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "default",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": false,
   "workbench.editor.wrapTabs": true,
-  "workbench.editor.tabSizing": "shrink",
   "workbench.colorTheme": "Dracula",
-  "zenMode.fullScreen": true,
-  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "window.title": "☕${dirty}${activeEditorMedium}${separator}${rootName}🎯",
   "window.commandCenter": true,
   "window.restoreFullscreen": true,
   "window.customTitleBarVisibility": "auto",
-  "window.titleSeparator": " - ",
+  "window.titleSeparator": " 👀 ",
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0,
+
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
+  "explorer.confirmDragAndDrop": false,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
     "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
@@ -32,19 +32,14 @@
     "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
     ".prettierrc": ".prettierrc.js, .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, .prettierrc.toml, .prettierrc.json5, .prettierignore"
   },
-
-  // Editor and breadcrumbs
-  "editor.tabSize": 2,
   "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [120],
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.fontSize": 13.5,
-  "editor.lineHeight": 16.5,
-  "editor.letterSpacing": 0,
-  "editor.detectIndentation": false,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 15,
   "editor.snippetSuggestions": "bottom",
   "editor.suggest.showClasses": true,
   "editor.suggest.showConstructors": true,
@@ -61,7 +56,6 @@
   "editor.suggest.showInterfaces": true,
   "editor.suggest.localityBonus": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.formatOnPaste": false,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.mouseWheelScrollSensitivity": 1,
   "editor.smoothScrolling": true,
@@ -71,7 +65,6 @@
   "editor.fontLigatures": "'ss02', 'ss04'",
   "editor.glyphMargin": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
   "editor.hover.sticky": true,
   "editor.hover.delay": 500,
   "editor.guides.bracketPairs": "active",
@@ -88,19 +81,10 @@
 
   // Git
   "git.enableSmartCommit": true,
-  "diffEditor.ignoreTrimWhitespace": true,
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
 
   // GitCopilot
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": true,
-    "markdown": false,
-    "scminput": false,
-    "Log": false,
-    "javascript": true
-  },
   "chat.editor.fontSize": 10.5,
 
   // Debug
@@ -176,13 +160,13 @@
   // CSpell checker extension
   "cSpell.enabled": true,
   "cSpell.language": "en,pt,pt_BR,es,fr,vi",
-  "cSpell.enableFiletypes": ["shellscript"],
+  "cSpell.enableFiletypes": ["dart", "shellscript"],
 
   // Dart extension
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
   "dart.lineLength": 120,
-  "dart.flutterSdkPath": "/home/vixyninja/fvm/default",
+  "dart.flutterSdkPath": "/home/vixyninja/fvm/default/bin",
   "dart.openDevTools": "flutter",
   "dart.showTodos": true,
   "dart.flutterHotReloadOnSave": "all",
@@ -191,6 +175,11 @@
   "dart.hotReloadProgress": "statusBar",
   "dart.flutterCreateOrganization": "vixyninja",
   "dart.enableSdkFormatter": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
 
   // Material Icon Theme
   "material-icon-theme.folders.color": "#42a5f5",
@@ -210,8 +199,15 @@
   "[handlebars]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "redhat.telemetry.enabled": false,
-  "dart.debugExternalPackageLibraries": true,
-  "dart.debugSdkLibraries": false,
-  "workbench.activityBar.location": "top"
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "dart": true
+  },
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command"],
+  "window.menuBarVisibility": "compact",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
 }
