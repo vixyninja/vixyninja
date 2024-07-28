@@ -4,42 +4,30 @@
   "workbench.editor.labelFormat": "default",
   "workbench.list.smoothScrolling": false,
   "workbench.editor.wrapTabs": true,
-  "workbench.colorTheme": "Dracula",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.defaultBinaryEditor": "default",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
-  "window.title": "☕${dirty}${activeEditorMedium}${separator}${rootName}🎯",
+  "zenMode.fullScreen": true,
+
+  // Window
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}",
   "window.commandCenter": true,
-  "window.restoreFullscreen": true,
-  "window.customTitleBarVisibility": "auto",
-  "window.titleSeparator": " 👀 ",
-  "window.titleBarStyle": "custom",
+  "window.titleSeparator": " 🎯 ",
+  "window.zoomLevel": -1,
 
   // Explorer
   "explorer.compactFolders": false,
-  "explorer.fileNesting.enabled": true,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.fileNesting.expand": false,
-  "explorer.fileNesting.patterns": {
-    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
-    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
-    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
-    "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
-    "docker*": "docker-compose*, .dockerignore",
-    ".env": ".env*,",
-    "package.json": "package-lock.json, yarn.lock, bun.sh",
-    "tsconfig.json": "tsconfig.build.json, tsconfig.spec.json, tsconfig.app.json, tsconfig.e2e.json, tsconfig.json",
-    "jest*": "jest.config.js, jest.config.ts, jest.config",
-    "webpack*": "webpack.config.js, webpack.config.ts, webpack.config",
-    ".prettierrc": ".prettierrc.js, .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, .prettierrc.toml, .prettierrc.json5, .prettierignore"
-  },
-  "breadcrumbs.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
   "editor.renderControlCharacters": false,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [120],
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 15,
+  "editor.lineHeight": 14,
+  "editor.letterSpacing": 0,
+  "editor.detectIndentation": false,
   "editor.snippetSuggestions": "bottom",
   "editor.suggest.showClasses": true,
   "editor.suggest.showConstructors": true,
@@ -51,7 +39,9 @@
   "editor.suggest.showEnums": true,
   "editor.suggest.showEnumMembers": true,
   "editor.suggest.showKeywords": true,
-
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.suggest.preview": true,
+  "editor.suggest.shareSuggestSelections": true,
   "editor.wordBasedSuggestions": "matchingDocuments",
   "editor.suggest.showInterfaces": true,
   "editor.suggest.localityBonus": true,
@@ -59,15 +49,13 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.mouseWheelScrollSensitivity": 1,
   "editor.smoothScrolling": true,
-  "editor.mouseWheelZoom": true,
+  "editor.mouseWheelZoom": false,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "Monaspace Xeon, Monaco, monospace",
+  "editor.fontFamily": "Monaco, monospace",
   "editor.fontLigatures": "'ss02', 'ss04'",
   "editor.glyphMargin": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.hover.sticky": true,
   "editor.hover.delay": 500,
-  "editor.guides.bracketPairs": "active",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -77,23 +65,38 @@
   "editor.inlineSuggest.enabled": true,
   "editor.codeLensFontFamily": "Monaco",
   "editor.codeLensFontSize": 12,
-  "editor.inlayHints.fontSize": 12,
+  "editor.inlayHints.fontSize": 12.5,
+  "editor.guides.bracketPairs": "active",
+  "scm.experimental.showHistoryGraph": true,
+  "breadcrumbs.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
 
   // Git
   "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": true,
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
 
   // GitCopilot
-  "chat.editor.fontSize": 10.5,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "Log": false,
+    "javascript": true,
+    "dart": true
+  },
+  "chat.editor.fontSize": 12.5,
+  "github.copilot.editor.enableAutoCompletions": true,
 
   // Debug
   "debug.console.wordWrap": true,
-  // "debug.toolBarLocation": "docked",
   "debug.inlineValues": "on",
   "debug.console.fontFamily": "Monaco",
-  "debug.console.fontSize": 12,
-
+  "debug.console.fontSize": 12.5,
+  "debug.console.lineHeight": 14,
   // Files and search
   "files.defaultLanguage": "{activeEditorLanguage}",
   "files.exclude": {
@@ -113,14 +116,10 @@
   "terminal.integrated.copyOnSelection": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.external.linuxExec": "x-terminal-emulator",
   "terminal.integrated.fontFamily": "Monaco",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 12.5,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.enableFileLinks": "on",
-  "terminal.integrated.env.linux": {
-    // "PORT": "4000"
-  },
 
   // Javascript & TypeScript
   "javascript.preferences.quoteStyle": "single",
@@ -139,8 +138,25 @@
     "*.html": "html",
     "**/templates/*.html": "django-html",
     "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "*.env": "dotenv"
   },
+
+  // Php
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "php.validate.enable": true,
+  "php.inlayHints.parameters.byReference": true,
+  "php.inlayHints.parameters.enabled": true,
+  "php.inlayHints.parameters.suppressNameMatchingValue": true,
+  "php.inlayHints.types.lambdaParameter": true,
+  "intelephense.phpdoc.useFullyQualifiedNames": true,
+  "php.completion.namingConvention": "snake_case",
+  "php.completion.showParameters": true,
+  "php.linkedEditing.variables": true,
+  "html.format.templating": true,
+  "php.suggest.basic": true,
 
   // Emmet
   "emmet.syntaxProfiles": {
@@ -151,6 +167,20 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
+  "emmet.showSuggestionsAsSnippets": true,
+
+  // Dart
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.lineLength": 120,
+  "dart.openDevTools": "flutter",
+  "dart.showTodos": true,
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.enableSnippets": true,
+  "dart.hotReloadOnSave": "all",
+  "dart.hotReloadProgress": "statusBar",
+  "dart.flutterCreateOrganization": "vixyninja",
+  "dart.enableSdkFormatter": true,
 
   // ##################### Extensions ##################### //
 
@@ -160,30 +190,12 @@
   // CSpell checker extension
   "cSpell.enabled": true,
   "cSpell.language": "en,pt,pt_BR,es,fr,vi",
-  "cSpell.enableFiletypes": ["dart", "shellscript"],
-
-  // Dart extension
-  "dart.previewFlutterUiGuides": true,
-  "dart.previewFlutterUiGuidesCustomTracking": true,
-  "dart.lineLength": 120,
-  "dart.flutterSdkPath": "/home/vixyninja/fvm/default/bin",
-  "dart.openDevTools": "flutter",
-  "dart.showTodos": true,
-  "dart.flutterHotReloadOnSave": "all",
-  "dart.enableSnippets": true,
-  "dart.hotReloadOnSave": "all",
-  "dart.hotReloadProgress": "statusBar",
-  "dart.flutterCreateOrganization": "vixyninja",
-  "dart.enableSdkFormatter": true,
-  "dart.debugExternalPackageLibraries": false,
-  "dart.debugSdkLibraries": false,
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
+  "cSpell.enableFiletypes": ["shellscript"],
+  "cSpell.userWords": ["bycryptjs", "cloudinary", "metatype", "typeorm"],
 
   // Material Icon Theme
   "material-icon-theme.folders.color": "#42a5f5",
-  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.activeIconPack": "angular_ngrx",
   "material-icon-theme.files.color": "#42a5f5",
   "material-icon-theme.opacity": 1,
   "material-icon-theme.saturation": 1,
@@ -199,15 +211,31 @@
   "[handlebars]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": true,
-    "markdown": false,
-    "scminput": false,
-    "dart": true
+
+  // Gitlens
+  "gitlens.views.branches.files.layout": "list",
+  "redhat.telemetry.enabled": true,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
   },
-  "gitlens.gitCommands.skipConfirmations": ["fetch:command"],
-  "window.menuBarVisibility": "compact",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+
+  // SCSS
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  }
 }
