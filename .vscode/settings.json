@@ -4,30 +4,34 @@
   "workbench.editor.labelFormat": "default",
   "workbench.list.smoothScrolling": false,
   "workbench.editor.wrapTabs": true,
-  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.tabSizing": "fixed",
   "workbench.editor.defaultBinaryEditor": "default",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
-  "zenMode.fullScreen": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.tree.stickyScrollMaxItemCount": 4,
+  "workbench.tree.indent": 4,
 
   // Window
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}",
   "window.commandCenter": true,
   "window.titleSeparator": " 🎯 ",
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0.5,
 
-  // Explorer
-  "explorer.compactFolders": false,
+  // Editor
+  "editor.formatOnPaste": true,
+  "editor.detectIndentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.renderControlCharacters": false,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [120],
+  "editor.formatOnSave": true,
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.lineHeight": 14,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 13.5,
   "editor.letterSpacing": 0,
-  "editor.detectIndentation": false,
   "editor.snippetSuggestions": "bottom",
   "editor.suggest.showClasses": true,
   "editor.suggest.showConstructors": true,
@@ -65,20 +69,13 @@
   "editor.inlineSuggest.enabled": true,
   "editor.codeLensFontFamily": "Monaco",
   "editor.codeLensFontSize": 12,
-  "editor.inlayHints.fontSize": 12.5,
+  "editor.inlayHints.fontSize": 13,
   "editor.guides.bracketPairs": "active",
-  "scm.experimental.showHistoryGraph": true,
-  "breadcrumbs.enabled": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
 
   // Git
   "git.enableSmartCommit": true,
-  "diffEditor.ignoreTrimWhitespace": true,
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
-
-  // GitCopilot
   "github.copilot.enable": {
     "*": true,
     "plaintext": true,
@@ -88,8 +85,8 @@
     "javascript": true,
     "dart": true
   },
-  "chat.editor.fontSize": 12.5,
   "github.copilot.editor.enableAutoCompletions": true,
+  "chat.editor.fontSize": 12.5,
 
   // Debug
   "debug.console.wordWrap": true,
@@ -97,7 +94,8 @@
   "debug.console.fontFamily": "Monaco",
   "debug.console.fontSize": 12.5,
   "debug.console.lineHeight": 14,
-  // Files and search
+
+  // Files & Search
   "files.defaultLanguage": "{activeEditorLanguage}",
   "files.exclude": {
     "USE_GITIGNORE": true
@@ -121,7 +119,7 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.enableFileLinks": "on",
 
-  // Javascript & TypeScript
+  // JavaScript & TypeScript
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "javascript.validate.enable": false,
@@ -132,8 +130,6 @@
     "editor.suggestSelection": "recentlyUsed",
     "editor.suggest.showKeywords": false
   },
-
-  // Django
   "files.associations": {
     "*.html": "html",
     "**/templates/*.html": "django-html",
@@ -142,7 +138,7 @@
     "*.env": "dotenv"
   },
 
-  // Php
+  // PHP
   "[php]": {
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },
@@ -157,8 +153,6 @@
   "php.linkedEditing.variables": true,
   "html.format.templating": true,
   "php.suggest.basic": true,
-
-  // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -169,7 +163,7 @@
   },
   "emmet.showSuggestionsAsSnippets": true,
 
-  // Dart
+  // Dart & Flutter
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
   "dart.lineLength": 120,
@@ -182,17 +176,13 @@
   "dart.flutterCreateOrganization": "vixyninja",
   "dart.enableSdkFormatter": true,
 
-  // ##################### Extensions ##################### //
-
-  // Material icon theme extension
-  "material-icon-theme.folders.theme": "specific",
-
-  // CSpell checker extension
+  // CSpell
   "cSpell.enabled": true,
   "cSpell.language": "en,pt,pt_BR,es,fr,vi",
   "cSpell.enableFiletypes": ["shellscript"],
   "cSpell.userWords": ["bycryptjs", "cloudinary", "metatype", "typeorm"],
 
+  // ============> Extensions <============
   // Material Icon Theme
   "material-icon-theme.folders.color": "#42a5f5",
   "material-icon-theme.activeIconPack": "angular_ngrx",
@@ -201,41 +191,18 @@
   "material-icon-theme.saturation": 1,
   "material-icon-theme.hidesExplorerArrows": false,
 
-  // Prettier extension
+  // Prettier
   "prettier.printWidth": 120,
   "prettier.singleAttributePerLine": true,
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
-
-  // Handlebars
   "[handlebars]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
 
-  // Gitlens
+  // GitLens
   "gitlens.views.branches.files.layout": "list",
-  "redhat.telemetry.enabled": true,
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[properties]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[dotenv]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
 
-  // SCSS
-  "[scss]": {
-    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-  }
+  // Red Hat Telemetry
+  "redhat.telemetry.enabled": true
 }
