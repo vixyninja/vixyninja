@@ -74,6 +74,8 @@
   "editor.codeLensFontSize": 12,
   "editor.inlayHints.fontSize": 13,
   "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
 
   // Git
   "git.enableSmartCommit": true,
