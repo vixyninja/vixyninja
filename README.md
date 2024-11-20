@@ -23,11 +23,11 @@ These are some of the major technologies that I use or have worked on in the pas
 
 **Programming Languages**
 
-<img src="https://skillicons.dev/icons?i=java,js,typescript,dart,java,kotlin&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=js,typescript,dart,java,kotlin&perline=8&theme=light" alt="My Skills" />
 
 **Libraries and Frameworks**
 
-<img src="https://skillicons.dev/icons?i=redux,tailwind,react,flutter,express,nestjs&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=react,flutter,express,nestjs,angular,electron&perline=8&theme=light" alt="My Skills" />
 
 **Infrastructure**
 
