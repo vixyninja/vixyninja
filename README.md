@@ -19,7 +19,7 @@ These are some of the major technologies that I use or have worked on in the pas
 
 **Basic**
 
-<img src="https://skillicons.dev/icons?i=html,css,figma&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=html,css,figma,scss,bootstrap,tailwind&perline=8&theme=light" alt="My Skills" />
 
 **Programming Languages**
 
