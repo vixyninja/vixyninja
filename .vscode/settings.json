@@ -8,7 +8,6 @@
   "workbench.editor.defaultBinaryEditor": "default",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Dracula Theme",
   "workbench.tree.stickyScrollMaxItemCount": 4,
   "workbench.tree.indent": 4,
   "workbench.tree.enableStickyScroll": false,
@@ -17,9 +16,8 @@
 
   // Window
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}",
-  "window.commandCenter": true,
   "window.titleSeparator": " 🎯 ",
-  "window.zoomLevel": 0.5,
+  "window.zoomLevel": 0,
 
   // Editor
   "editor.formatOnPaste": true,
@@ -31,8 +29,8 @@
   "editor.rulers": [120],
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.fontSize": 11.5,
-  "editor.lineHeight": 13,
+  "editor.fontSize": 12.5,
+  "editor.lineHeight": 14,
   "editor.letterSpacing": 0,
   "editor.snippetSuggestions": "bottom",
   "editor.suggest.showClasses": true,
@@ -74,7 +72,7 @@
   "editor.codeLensFontSize": 12,
   "editor.inlayHints.fontSize": 13,
   "editor.guides.bracketPairs": "active",
-  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrap": "off",
   "editor.wordWrapColumn": 120,
 
   // Git
@@ -88,7 +86,9 @@
     "scminput": false,
     "Log": false,
     "javascript": true,
-    "dart": true
+    "dart": true,
+    "csharp": true,
+    "cpp": true
   },
   "github.copilot.editor.enableAutoCompletions": true,
   "chat.editor.fontSize": 12.5,
@@ -151,21 +151,6 @@
     // Bootstrap
     "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
   ],
-
-  // PHP
-  "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-  },
-  "php.validate.enable": true,
-  "php.inlayHints.parameters.byReference": true,
-  "php.inlayHints.parameters.enabled": true,
-  "php.inlayHints.parameters.suppressNameMatchingValue": true,
-  "php.inlayHints.types.lambdaParameter": true,
-  "intelephense.phpdoc.useFullyQualifiedNames": true,
-  "php.completion.namingConvention": "snake_case",
-  "php.completion.showParameters": true,
-  "php.linkedEditing.variables": true,
-  "php.suggest.basic": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -192,8 +177,11 @@
   // CSpell
   "cSpell.enabled": true,
   "cSpell.language": "en,pt,pt_BR,es,fr,vi",
-  "cSpell.enableFiletypes": ["shellscript"],
-  "cSpell.userWords": ["bycryptjs", "cloudinary", "metatype", "typeorm"],
+  "cSpell.enabledFileTypes": {
+    "*": true,
+    "markdown": true
+  },
+  "cSpell.userWords": ["bycryptjs", "cloudinary", "metatype", "typeorm", "vixyninja"],
 
   // ============> Extensions <============
   // Material Icon Theme
@@ -217,5 +205,49 @@
   "gitlens.views.branches.files.layout": "list",
   "gitlens.gitCommands.skipConfirmations": ["fetch:command"],
   // Red Hat Telemetry
-  "redhat.telemetry.enabled": true
+  "redhat.telemetry.enabled": true,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "makefile.configureOnOpen": false,
+  "gitlens.views.repositories.showStashes": true,
+  "workbench.colorCustomizations": {},
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "[toml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Default Dark+"
 }
