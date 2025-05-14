@@ -17,17 +17,9 @@
 
 These are some of the major technologies that I use or have worked on in the past:
 
-**Basic**
-
-<img src="https://skillicons.dev/icons?i=html,css,figma,scss,bootstrap,tailwind&perline=8&theme=light" alt="My Skills" />
-
 **Programming Languages**
 
 <img src="https://skillicons.dev/icons?i=js,typescript,dart,java,kotlin,go&perline=8&theme=light" alt="My Skills" />
-
-**Libraries and Frameworks**
-
-<img src="https://skillicons.dev/icons?i=react,flutter,express,nestjs,angular,electron&perline=8&theme=light" alt="My Skills" />
 
 **Infrastructure**
 
@@ -39,7 +31,7 @@ These are some of the major technologies that I use or have worked on in the pas
 
 **Tools**
 
-<img src="https://skillicons.dev/icons?i=vscode,androidstudio,postman,linux,git,github&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=vscode,androidstudio,xcode,postman,linux,git,github,docker&perline=8&theme=light" alt="My Skills" />
 
 ## Some of my stats :bar_chart:
 
