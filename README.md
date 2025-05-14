@@ -42,6 +42,7 @@ These are some of the major technologies that I use or have worked on in the pas
 <img src="https://skillicons.dev/icons?i=vscode,androidstudio,postman,linux,git,github&perline=8&theme=light" alt="My Skills" />
 
 ## Some of my stats :bar_chart:
+
 ![vixyninja's Streak](https://github-readme-streak-stats.herokuapp.com/?user=vixyninja&theme=darcula&hide_border=false)
 <br>
 ![vixyninja's Stats](https://github-readme-stats.vercel.app/api?username=vixyninja&theme=darcula&show_icons=true&hide_border=false&count_private=true)
