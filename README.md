@@ -31,7 +31,7 @@ These are some of the major technologies that I use or have worked on in the pas
 
 **Infrastructure**
 
-<img src="https://skillicons.dev/icons?i=firebase,googlecloud,docker,nodejs,gradle&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=firebase,googlecloud,docker,nodejs&perline=8&theme=light" alt="My Skills" />
 
 **Databases**
 
