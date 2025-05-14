@@ -15,23 +15,7 @@
 
 ## Skill Set
 
-These are some of the major technologies that I use or have worked on in the past:
-
-**Programming Languages**
-
 <img src="https://skillicons.dev/icons?i=js,typescript,dart,java,kotlin,go&perline=8&theme=light" alt="My Skills" />
-
-**Infrastructure**
-
-<img src="https://skillicons.dev/icons?i=firebase,googlecloud,docker,nodejs&perline=8&theme=light" alt="My Skills" />
-
-**Databases**
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&perline=8&theme=light" alt="My Skills" />
-
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=vscode,androidstudio,postman,linux,git,github,docker&perline=8&theme=light" alt="My Skills" />
 
 ## Some of my stats :bar_chart:
 
