@@ -7,15 +7,15 @@
 ## <picture><img src = "./assets/about_me.gif" width =30px>**About me**</picture>
 
 - 👋 Hi, I’m Huynh Hong Vy
-- 💼 I'm a Mobile Developer in FPT Polytechnic
-- 💬 Talk to me about freelancing opportunities in the mobile app
+- 💼 I'm a Developer in FPT Polytechnic
+- 💬 Talk to me about freelancing opportunities in the application
 - 👯 I’m looking to collaborate on backend software engineering projects
 
 <br>
 
 ## Skill Set
 
-<img src="https://skillicons.dev/icons?i=js,typescript,dart,java,kotlin,go&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=html,css,scss,tailwind,bootstrap,js,typescript,dart,go,nodejs,express,nest,flutter,angular,react,next,electron&perline=8&theme=light" alt="My Skills" />
 
 ## Some of my stats :bar_chart:
 
