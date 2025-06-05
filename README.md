@@ -6,16 +6,27 @@
 
 ## <picture><img src = "./assets/about_me.gif" width =30px>**About me**</picture>
 
-- 👋 Hi, I’m Huynh Hong Vy
-- 💼 I'm a Developer in FPT Polytechnic
-- 💬 Talk to me about freelancing opportunities in the application
-- 👯 I’m looking to collaborate on backend software engineering projects
+## 👋 About Me
+
+Hi, I’m **Huynh Hong Vy** — a curious learner and passionate developer at heart.  
+I graduated from **FPT Polytechnic** and I'm currently continuing my journey at **UIT (University of Information Technology)**.
+
+I enjoy turning ideas into simple, useful digital experiences.  
+Whether it's solving problems, learning new things, or collaborating with others — I'm always excited to grow and explore more in the world of technology.
+
+Let’s connect and create something meaningful together.
 
 <br>
 
 ## Skill Set
 
-<img src="https://skillicons.dev/icons?i=html,css,scss,tailwind,bootstrap,js,typescript,dart,go,nodejs,express,nest,flutter,angular,react,next,electron&perline=8&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=html,css,scss,tailwind,bootstrap,js,typescript,go,nodejs,express,nest,angular,react,next,electron&perline=16&theme=light" alt="My Skills" />
+
+
+## 📫 Let’s Connect
+
+I’m always open to new challenges, collaborations, or freelance gigs.  
+Feel free to reach out — let’s build something awesome together!
 
 ## Some of my stats :bar_chart:
 
