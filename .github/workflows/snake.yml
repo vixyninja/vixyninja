@@ -3,7 +3,7 @@ name: Snake Game
 on:
   # Schedule the workflow to run daily at midnight UTC
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight UTC
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
 
   # Allow manual triggering of the workflow
   workflow_dispatch:
@@ -46,4 +46,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output # Saves the animation in the `output` branch
           publish_dir: dist # Ensure correct directory is uploaded
-          commit_message: "🐍 Update snake animation [skip ci]"
+          commit_message: '🐍 Update snake animation [skip ci]'
