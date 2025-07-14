@@ -7,13 +7,18 @@ on:
 
   # Allow manual triggering of the workflow
   workflow_dispatch:
+permissions:
+  contents: write # Required to push the generated files to the repository
+  pages: write # Required to deploy to GitHub Pages
 
 jobs:
   generate:
     name: Generate Snake Contribution Graph
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
+    permissions:
+      contents: write
+      pages: write
     steps:
       # Step 1: Checkout the repository
       - name: Checkout Repository
