@@ -38,3 +38,9 @@ Feel free to reach out — let’s build something awesome together!
 
 - :zap: How to make profile like me ? https://www.sitepoint.com/github-profile-readme/
 - :seedling: Good luck!
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
