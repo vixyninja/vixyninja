@@ -16,7 +16,9 @@ jobs:
     name: Generate Snake Contribution Graph
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
+    permissions:
+      contents: write
+      pages: write
     steps:
       # Step 1: Checkout the repository
       - name: Checkout Repository
