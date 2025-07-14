@@ -38,11 +38,8 @@ Feel free to reach out — let’s build something awesome together!
 
 - :zap: How to make profile like me ? https://www.sitepoint.com/github-profile-readme/
 - :seedling: Good luck!
-
-## Contribution Snake
-
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Snake" src="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake.svg">
+- <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake.svg">
   </picture>
