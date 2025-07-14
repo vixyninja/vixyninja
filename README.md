@@ -1,4 +1,5 @@
 <h1 align="center"><b>Hi , I'm Huynh Hong Vy </b><img src="./assets/hi.gif" width="35"></h1>
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=vixyninja)
 
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=24&pause=1000&color=F7DB1A&center=true&vCenter=true&width=1080&height=24&lines=Life+is+a+journey+of+self-discovery+and+endless+possibilities.+;Every+person+has+a+unique+story+waiting+to+be+told.;The+beauty+of+life+lies+in+embracing+both+joys+and+challenges" alt="Typing SVG" /></a>
@@ -22,7 +23,6 @@ Let’s connect and create something meaningful together.
 
 <img src="https://skillicons.dev/icons?i=html,css,scss,tailwind,bootstrap,js,typescript,go,nodejs,express,nest,angular,react,next,electron&perline=16&theme=light" alt="My Skills" />
 
-
 ## 📫 Let’s Connect
 
 I’m always open to new challenges, collaborations, or freelance gigs.  
@@ -38,9 +38,8 @@ Feel free to reach out — let’s build something awesome together!
 
 - :zap: How to make profile like me ? https://www.sitepoint.com/github-profile-readme/
 - :seedling: Good luck!
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
+- <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake.svg">
+  </picture>
