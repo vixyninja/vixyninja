@@ -5,10 +5,7 @@
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=vixyninja)
 
-## <picture><img src = "./assets/about_me.gif" width =30px>**About me**</picture>
-
-## 👋 About Me
-
+## <picture><img src = "./assets/about_me.gif" width =30px>**👋 About Me**</picture>
 Hi, I’m **Huynh Hong Vy** — a curious learner and passionate developer at heart.  
 I graduated from **FPT Polytechnic** and I'm currently continuing my journey at **UIT (University of Information Technology)**.
 
