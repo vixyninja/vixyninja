@@ -81,8 +81,8 @@
   "editor.codeLensFontSize": 16,
   "editor.inlayHints.fontSize": 16,
   "editor.guides.bracketPairs": "active",
-  "editor.wordWrap": "on",
-  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
   // =========================================
   // GIT AND GITHUB COPILOT SETTINGS
   // =========================================
