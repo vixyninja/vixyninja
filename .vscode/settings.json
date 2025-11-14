@@ -285,8 +285,36 @@
       "tag": "REMARK",
       "color": "#81E1B8",
       "strikethrough": false
+    },
+    {
+      "tag": "DOCS",
+      "color": "#C82909",
+      "strikethrough": false
     }
   ],
+  // =========================================
+  // AUTO HEADER
+  // =========================================
+  "autoHeader": {
+    "format": {
+      "startWith": "/**",
+      "middleWith": "*",
+      "endWith": "*/",
+      "headerPrefix": "@",
+    },
+    "header": {
+      "Author": "vixyninja",
+      "Create Time": {
+        "type": "createTime",
+        "format": "YYYY-MM-DD HH:mm:ss",
+      },
+      "Modified time": {
+        "type": "modifyTime",
+        "format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "Description": "",
+    }
+  }
   // =========================================
   // MISC
   // =========================================
