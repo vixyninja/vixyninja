@@ -140,6 +140,22 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.enableFileLinks": "on",
   // =========================================
+  // GO SETTINGS
+  // =========================================
+  "go.useLanguageServer": true,
+  "go.formatTool": "gofumpt",
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.testFlags": [
+    "-v"
+  ],
+  "go.toolsManagement.autoUpdate": true,
+  "go.buildFlags": [
+    "-tags=wireinject"
+  ],
+  // =========================================
   // JAVASCRIPT / TYPESCRIPT SETTINGS
   // =========================================
   "javascript.preferences.quoteStyle": "single",
@@ -314,7 +330,7 @@
       },
       "Description": "",
     }
-  }
+  },
   // =========================================
   // MISC
   // =========================================
