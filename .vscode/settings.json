@@ -4,7 +4,7 @@
   // =========================================
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "default",
-  "workbench.list.smoothScrolling": false,
+  "workbench.list.smoothScrolling": true,
   "workbench.editor.wrapTabs": true,
   "workbench.editor.tabSizing": "fixed",
   "workbench.editor.defaultBinaryEditor": "default",
@@ -52,8 +52,31 @@
   "editor.suggest.showEnums": true,
   "editor.suggest.showEnumMembers": true,
   "editor.suggest.showKeywords": true,
+  "editor.suggest.filterGraceful": true,
+  "editor.suggest.showIcons": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.suggest.preview": true,
+  "editor.suggest.showOperators": true,
+  "editor.suggest.showStatusBar": true,
+  "editor.suggest.showWords": true,
+  "editor.suggest.showUnits": true,
+  "editor.suggest.showUsers": true,
+  "editor.suggest.showFiles": true,
+  "editor.suggest.showTypeParameters": true,
+  "editor.suggest.showValues": true,
+  "editor.suggest.showStructs": true,
+  "editor.suggest.showColors": true,
+  "editor.suggest.showSnippets": true,
+  "editor.suggest.showReferences": true,
+  "editor.suggest.showModules": true,
+  "editor.suggest.showIssues": true,
+  "editor.suggest.showInlineDetails": true,
+  "editor.suggest.showFolders": true,
+  "editor.suggest.showFields": true,
+  "editor.suggest.showEvents": true,
+  "editor.suggest.showDeprecated": true,
+  "editor.suggest.showCustomcolors": true,
+  "editor.suggest.matchOnWordStartOnly": true,
   "editor.suggest.shareSuggestSelections": true,
   "editor.wordBasedSuggestions": "matchingDocuments",
   "editor.suggest.showInterfaces": true,
@@ -82,7 +105,10 @@
   "editor.inlayHints.fontSize": 16,
   "editor.guides.bracketPairs": "active",
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 100,
+  "editor.wordWrapColumn": 120,
+  "editor.cursorSurroundingLines": 15,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "phase",
   // =========================================
   // GIT AND GITHUB COPILOT SETTINGS
   // =========================================
@@ -175,7 +201,8 @@
     "**/templates/*.html": "django-html",
     "**/templates/*": "django-txt",
     "**/requirements{/**,*}.{txt,in}": "pip-requirements",
-    "*.env": "dotenv"
+    "*.env": "dotenv",
+    "*.ini": "dotenv"
   },
   // =========================================
   // SPELL CHECKER SETTINGS
@@ -198,7 +225,7 @@
   // =========================================
   // -------- Material Icon Theme --------
   "material-icon-theme.folders.color": "#42a5f5",
-  "material-icon-theme.activeIconPack": "angular_ngrx",
+  "material-icon-theme.activeIconPack": "angular",
   "material-icon-theme.files.color": "#42a5f5",
   "material-icon-theme.opacity": 1,
   "material-icon-theme.saturation": 1,
@@ -214,8 +241,6 @@
     "fetch:command"
   ],
   "gitlens.views.repositories.showStashes": true,
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   // -------- Red Hat --------
   "redhat.telemetry.enabled": true,
   // -------- Make / Build tools --------
@@ -268,6 +293,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[proto3]": {
+    "editor.defaultFormatter": "zxh404.vscode-proto3"
+  },
   // =========================================
   // COMMENTS
   // =========================================
@@ -308,29 +336,6 @@
       "strikethrough": false
     }
   ],
-  // =========================================
-  // AUTO HEADER
-  // =========================================
-  "autoHeader": {
-    "format": {
-      "startWith": "/**",
-      "middleWith": "*",
-      "endWith": "*/",
-      "headerPrefix": "@",
-    },
-    "header": {
-      "Author": "vixyninja",
-      "Create Time": {
-        "type": "createTime",
-        "format": "YYYY-MM-DD HH:mm:ss",
-      },
-      "Modified time": {
-        "type": "modifyTime",
-        "format": "YYYY-MM-DD HH:mm:ss"
-      },
-      "Description": "",
-    }
-  },
   // =========================================
   // MISC
   // =========================================
