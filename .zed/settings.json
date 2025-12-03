@@ -1,0 +1,499 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  // =======================================================================
+  // UI
+  // 1. Active Pane Modifiers
+  "active_pane_modifiers": {
+    "border_size": 0.0,
+    "inactive_opacity": 1.0
+  },
+  // 2. Bottom Dock Layout
+  "bottom_dock_layout": "contained",
+  // 3. Centered Layout
+  "centered_layout": {
+    "left_padding": 0.2,
+    "right_padding": 0.2
+  },
+  // 4. Drop Target Size
+  "drop_target_size": 0.2,
+  // 5. Editor Scrollbar
+  "scrollbar": {
+    "show": "auto",
+    "cursors": true,
+    "git_diff": true,
+    "search_results": true,
+    "selected_text": true,
+    "selected_symbol": true,
+    "diagnostics": "all",
+    "axes": {
+      "horizontal": true,
+      "vertical": true
+    }
+  },
+  // 6. Gutter
+  "gutter": {
+    "line_numbers": true,
+    "runnables": true,
+    "breakpoints": true,
+    "folds": true,
+    "min_line_number_digits": 4
+  },
+  // 7. Hide Mouse
+  "hide_mouse": "on_typing_and_movement",
+  // 8. Icon Theme Object
+  "icon_theme": {
+    "mode": "dark",
+    "dark": "Material Icon Theme",
+    "light": "Material Icon Theme"
+  },
+  // 9. Image Viewer
+  "image_viewer": {
+    "unit": "binary"
+  },
+  // 10. Line Indicator Format
+  "line_indicator_format": "long",
+  // 11. File Finder
+  "file_finder": {
+    "modal_max_width": "medium",
+    "file_icons": true,
+    "git_status": true,
+    "include_ignored": "all",
+    "skip_focus_for_active_in_search": true
+  },
+  // 12. Tab Bar
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  // 13. Pane Split Direction Horizontal
+  "pane_split_direction_horizontal": "up",
+  // 14. Pane Split Direction Vertical
+  "pane_split_direction_vertical": "left",
+  // 15. Status Bar
+  "status_bar": {
+    "active_language_button": true,
+    "cursor_position_button": true,
+    "line_endings_button": false,
+    "experimental.show": true
+  },
+  // 16. Theme Object
+  "theme": {
+    "dark": "VSCode Dark Modern",
+    "light": "VSCode Dark Modern",
+    "mode": "dark"
+  },
+  // 17. Title Bar
+  "title_bar": {
+    "show_branch_icon": true,
+    "show_branch_name": true,
+    "show_project_items": true,
+    "show_onboarding_banner": true,
+    "show_user_picture": true,
+    "show_sign_in": true,
+    "show_menus": true
+  },
+  // 18. UI Font
+  "ui_font_family": "Monaco",
+  "ui_font_features": {
+    "calt": false
+  },
+  "ui_font_fallbacks": [".SystemUIFont", ".ZedMono"],
+  "ui_font_size": 15,
+  "ui_font_weight": 400,
+  // 19. Tabs
+  "tabs": {
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true,
+    "activate_on_close": "history",
+    "show_close_button": "hover",
+    "show_diagnostics": "errors"
+  },
+
+  // =======================================================================
+  // EDITOR (Text editing behavior)
+  // =======================================================================
+  // 1. Allow Rewrap
+  "allow_rewrap": "in_comments",
+  // 2. Auto Indent
+  "auto_indent": true,
+  // 3. Auto Indent On Paste
+  "auto_indent_on_paste": true,
+  // 4. Autosave
+  "autosave": "off",
+  // 5. Autoscroll on Clicks
+  "autoscroll_on_clicks": false,
+  // 6. Auto Signature Help
+  "auto_signature_help": false,
+  // 7. Auto Install Extensions
+  "auto_install_extensions": {
+    "HTML": true,
+    "TOML": true,
+    "Dockerfile": true,
+    "SQL": true,
+    "Git Firefly": true,
+    "SCSS": true,
+    "Make": true,
+    "Terraform": true,
+    "GraphQL": true,
+    "Basher": true,
+    "Codebook Spell Checker": true,
+    "golangci-lint": true,
+    "Proto": true,
+    "Material Icon Theme": true,
+    "LOG": true,
+    "Docker Compose": true,
+    "CSV": true,
+    "env": true,
+    "Nginx": true,
+    "VSCode Dark Modern": true
+  },
+  // 8. Auto Update Extensions
+  "auto_update_extensions": {
+    "HTML": true,
+    "TOML": true,
+    "Dockerfile": true,
+    "SQL": true,
+    "Git Firefly": true,
+    "SCSS": true,
+    "Make": true,
+    "Terraform": true,
+    "GraphQL": true,
+    "Basher": true,
+    "Codebook Spell Checker": true,
+    "golangci-lint": true,
+    "Proto": true,
+    "Material Icon Theme": true,
+    "LOG": true,
+    "Docker Compose": true,
+    "CSV": true,
+    "env": true,
+    "Nginx": true,
+    "VSCode Dark Modern": true
+  },
+  // 9. Base Keymap
+  "base_keymap": "VSCode",
+  // 10. Buffer Font Family
+  "buffer_font_family": "Monaco",
+  "buffer_font_fallbacks": [".SystemUIFont", ".ZedMono"],
+  "buffer_font_size": 15,
+  "buffer_line_height": "standard",
+  "buffer_font_weight": 400,
+  // 11. Close on File Delete
+  "close_on_file_delete": false,
+  // 12. Confirm Quit
+  "confirm_quit": true,
+  // 13. Current Line Highlight
+  "current_line_highlight": "gutter",
+  // 14. Selection Highlight
+  "selection_highlight": true,
+  // 15. Rounded Selection
+  "rounded_selection": true,
+  // 16. Cursor Blink
+  "cursor_blink": true,
+  // 17. Cursor Shape
+  "cursor_shape": "bar",
+  // 18. Drag And Drop Selection
+  "drag_and_drop_selection": {
+    "enabled": true,
+    "delay": 300
+  },
+  // 19. Double Click In Multibuffer
+  "double_click_in_multibuffer": "select",
+  // 20. Edit Predictions
+  "edit_predictions": {
+    "mode": "eager",
+    "disabled_globs": [
+      "**/.env*",
+      "**/*.pem",
+      "**/*.key",
+      "**/*.cert",
+      "**/*.crt",
+      "**/.dev.vars",
+      "**/secrets.yml"
+    ]
+  },
+  // 21. Go to Definition Fallback
+  "go_to_definition_fallback": "find_all_references",
+  // 22. Hard Tabs
+  "hard_tabs": false,
+  // 23. Indent Guides
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 1,
+    "coloring": "fixed",
+    "background_coloring": "disabled"
+  },
+  // 24. JSX Tag Auto Close
+  "jsx_tag_auto_close": {
+    "enabled": true
+  },
+  // 25. Linked Edits
+  "linked_edits": true,
+  // 26. Multi Cursor Modifier
+  "multi_cursor_modifier": "alt",
+  // 27. Preferred Line Length
+  "preferred_line_length": 100,
+  // 28. Preview tabs
+  "preview_tabs": {
+    "enabled": true,
+    "enable_preview_from_file_finder": false,
+    "enable_preview_from_code_navigation": false
+  },
+  // 29. Expand Excerpt Lines
+  "expand_excerpt_lines": 5,
+  // =======================================================================
+  // SEARCH
+  // =======================================================================
+  "search": {
+    "button": true,
+    "whole_word": false,
+    "case_sensitive": false,
+    "include_ignored": false,
+    "regex": false,
+    "center_on_match": false
+  },
+  // =======================================================================
+  // COMPLETIONS & INLINE HELP
+  // =======================================================================
+  "completions": {
+    "words": "fallback",
+    "words_min_length": 3,
+    "lsp": true,
+    "lsp_fetch_timeout_ms": 0,
+    "lsp_insert_mode": "replace_suffix"
+  },
+  // =======================================================================
+  // FILE SYSTEM / PROJECT
+  // =======================================================================
+  // 1. File Scan Exclusions
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/.jj",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings"
+  ],
+  // 2. File Scan Inclusions
+  "file_scan_inclusions": [".env*"],
+  // 3. Private Files
+  "private_files": ["**/.env*", "**/*.pem", "**/*.key", "**/*.cert", "**/*.crt", "**/secrets.yml"],
+  // 4. Read SSH Config
+  "read_ssh_config": true,
+  // =======================================================================
+  // GIT
+  // =======================================================================
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true,
+      "show_commit_summary": true
+    },
+    "branch_picker": {
+      "show_author_name": true
+    },
+    "hunk_style": "staged_hollow"
+  },
+  // =======================================================================
+  // LSP
+  // =======================================================================
+  // 1. Enable Language Server
+  "enable_language_server": true,
+  // 2. Global LSP Settings
+  "global_lsp_settings": {
+    "button": true
+  },
+  // 3. LSP
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy"
+        }
+      }
+    },
+    "gopls": {
+      "initialization_options": {
+        "hints": {
+          "assignVariableTypes": true,
+          "compositeLiteralFields": true,
+          "compositeLiteralTypes": true,
+          "constantValues": true,
+          "functionTypeParameters": true,
+          "parameterNames": true,
+          "rangeVariableTypes": true
+        }
+      }
+    }
+  },
+  // 4. LSP Highlight Debounce
+  "lsp_highlight_debounce": 75,
+  // 5. Formatter
+  "formatter": "auto",
+  // 6. Format On Save
+  "format_on_save": "on",
+  // 7. Language Models
+  "language_models": {
+    "anthropic": {
+      "api_url": "https://api.anthropic.com"
+    },
+    "google": {
+      "api_url": "https://generativelanguage.googleapis.com"
+    },
+    "ollama": {
+      "api_url": "http://localhost:11434"
+    },
+    "openai": {
+      "api_url": "https://api.openai.com/v1"
+    }
+  },
+  // 8. Languages
+  "languages": {
+    "C": {
+      "format_on_save": "off",
+      "preferred_line_length": 64,
+      "soft_wrap": "preferred_line_length"
+    },
+    "JSON": {
+      "tab_size": 4
+    },
+    "Go": {
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "Rust": {
+      "format_on_save": "on",
+      "formatter": "language_server"
+    }
+  },
+
+  // =======================================================================
+  // TERMINAL
+  // =======================================================================
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": true,
+    "keep_selection_on_copy": true,
+    "dock": "bottom",
+    "default_width": 640,
+    "default_height": 320,
+    "detect_venv": {
+      "on": {
+        "directories": [".env", "env", ".venv", "venv"],
+        "activate_script": "default"
+      }
+    },
+    "env": {},
+    "font_family": "Monaco",
+    "font_features": null,
+    "cursor_shape": "underline",
+    "font_size": null,
+    "line_height": "standard",
+    "minimum_contrast": 45,
+    "option_as_meta": false,
+    "button": true,
+    "shell": "system",
+    "scroll_multiplier": 3.0,
+    "toolbar": {
+      "breadcrumbs": false
+    },
+    "working_directory": "current_project_directory",
+    "scrollbar": {
+      "show": "system"
+    }
+  },
+
+  // =======================================================================
+  // AI / ASSISTANT
+  // =======================================================================
+  // 1. Disable AI
+  "disable_ai": false,
+  // 2. Show Call Status Icon
+  "show_call_status_icon": true,
+  // 3. Edit Prediction Provider
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+
+  // =======================================================================
+  // PANELS / DOCKS
+  // =======================================================================
+  "project_panel": {
+    "button": true,
+    "default_width": 240,
+    "dock": "left",
+    "entry_spacing": "standard",
+    "file_icons": true,
+    "folder_icons": true,
+    "git_status": true,
+    "indent_size": 12,
+    "auto_reveal_entries": true,
+    "auto_fold_dirs": true,
+    "drag_and_drop": true,
+    "scrollbar": {
+      "show": null
+    },
+    "sticky_scroll": true,
+    "show_diagnostics": "all",
+    "indent_guides": {
+      "show": "always"
+    },
+    "sort_mode": "directories_first",
+    "hide_root": false,
+    "hide_hidden": false,
+    "starts_open": true,
+    "auto_open": {
+      "on_create": true,
+      "on_paste": true,
+      "on_drop": true
+    }
+  },
+
+  // =======================================================================
+  // MISC FEATURES
+  // =======================================================================
+  // 1. Journal
+  "journal": {
+    "path": "~",
+    "hour_format": "hour24"
+  },
+  "collaboration_panel": {
+    "button": true,
+    "dock": "left",
+    "default_width": 180
+  },
+  // 2. Tasks
+  "tasks": {
+    "variables": {},
+    "enabled": true,
+    "prefer_lsp": false
+  },
+  // 3. Telemetry
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  // 4. REPL
+  "repl": {
+    // Maximum number of columns to keep in REPL's scrollback buffer.
+    // Clamped with [20, 512] range.
+    "max_columns": 128,
+    // Maximum number of lines to keep in REPL's scrollback buffer.
+    // Clamped with [4, 256] range.
+    "max_lines": 32
+  }
+}
