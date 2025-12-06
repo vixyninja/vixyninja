@@ -1,6 +1,5 @@
 # Set personal environment variables
 export SHELL="/bin/zsh"
-export EDITOR="nvim"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
