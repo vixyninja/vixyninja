@@ -28,7 +28,6 @@
   // =========================================
   "editor.formatOnPaste": true,
   "editor.detectIndentation": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.renderControlCharacters": false,
   "editor.renderLineHighlight": "gutter",
@@ -38,8 +37,8 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
-  "editor.fontSize": 16,
-  "editor.lineHeight": 17.5,
+  "editor.fontSize": 14.5,
+  "editor.lineHeight": 16.5,
   "editor.letterSpacing": 0,
   "editor.snippetSuggestions": "bottom",
   "editor.suggest.showClasses": true,
@@ -269,9 +268,6 @@
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "[csharp]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
@@ -281,20 +277,11 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[toml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[proto3]": {
-    "editor.defaultFormatter": "zxh404.vscode-proto3"
   },
   // =========================================
   // COMMENTS
@@ -341,7 +328,9 @@
   // =========================================
   "workbench.editorAssociations": {
     "*.md": "vscode.markdown.preview.editor",
-  }
+  },
+  "terminal.integrated.suggest.enabled": false,
+  "editor.largeFileOptimizations": false,
   // =========================================
   // MISC
   // =========================================
