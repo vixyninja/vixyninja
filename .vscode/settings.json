@@ -329,8 +329,10 @@
   "workbench.editorAssociations": {
     "*.md": "vscode.markdown.preview.editor",
   },
-  "terminal.integrated.suggest.enabled": false,
-  "editor.largeFileOptimizations": false,
+  // =========================================
+  // PROTOBUF SETTINGS
+  // =========================================
+  "protobuf.protoc.path": "/usr/bin/protoc",
   // =========================================
   // MISC
   // =========================================
