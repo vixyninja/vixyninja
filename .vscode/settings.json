@@ -324,12 +324,6 @@
     }
   ],
   // =========================================
-  // MARKDOWN SETTINGS
-  // =========================================
-  "workbench.editorAssociations": {
-    "*.md": "vscode.markdown.preview.editor",
-  },
-  // =========================================
   // PROTOBUF SETTINGS
   // =========================================
   "protobuf.protoc.path": "/usr/bin/protoc",
