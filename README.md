@@ -18,23 +18,12 @@ Let’s connect and create something meaningful together.
 
 ## Skill Set
 
-<img src="https://skillicons.dev/icons?i=html,css,scss,tailwind,bootstrap,js,typescript,go,nodejs,express,nest,angular,react,next,electron&perline=16&theme=light" alt="My Skills" />
+<img src="https://skillicons.dev/icons?i=js,typescript,go,nodejs,express,nest,angular&perline=16&theme=light" alt="My Skills" />
 
 ## 📫 Let’s Connect
 
 I’m always open to new challenges, collaborations, or freelance gigs.  
 Feel free to reach out — let’s build something awesome together!
-
-## Some of my stats :bar_chart:
-
-![vixyninja's Streak](https://github-readme-streak-stats.herokuapp.com/?user=vixyninja&theme=darcula&hide_border=false)
-<br>
-![vixyninja's Stats](https://github-readme-stats.vercel.app/api?username=vixyninja&theme=darcula&show_icons=true&hide_border=false&count_private=true)
-<br>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vixyninja&layout=compact&theme=vision-friendly-dark&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
-
-- :zap: How to make profile like me ? https://www.sitepoint.com/github-profile-readme/
-- :seedling: Good luck!
 
 ## Contribution Snake
 
