@@ -13,9 +13,7 @@ I enjoy turning ideas into simple, useful digital experiences.
 Whether it's solving problems, learning new things, or collaborating with others — I'm always excited to grow and explore more in the world of technology.
 
 Let’s connect and create something meaningful together.
-
 <br>
-
 ## Skill Set
 
 <img src="https://skillicons.dev/icons?i=js,typescript,go,nodejs,express,nest,angular&perline=16&theme=light" alt="My Skills" />
