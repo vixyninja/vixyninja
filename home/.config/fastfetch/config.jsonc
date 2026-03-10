@@ -1,0 +1,11 @@
+{
+  // Minimal Fastfetch profile
+  "modules": [
+    "os",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "terminal"
+  ]
+}

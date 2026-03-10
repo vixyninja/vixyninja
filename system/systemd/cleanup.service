@@ -1,0 +1,7 @@
+[Unit]
+Description=System cleanup and pruning
+
+[Service]
+Type=oneshot
+User=%i
+ExecStart=%h/dotfiles/scripts/server/cleanup.sh

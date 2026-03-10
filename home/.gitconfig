@@ -1,0 +1,26 @@
+[user]
+	name = YOUR NAME
+	email = your@email.com
+	signingkey =
+
+[core]
+	editor = nvim
+	autocrlf = input
+
+[includeIf "gitdir:~/work/"]
+	path = ~/.gitconfig.work
+
+[pull]
+	rebase = true
+
+[init]
+	defaultBranch = main
+
+[commit]
+	gpgsign = false
+
+[alias]
+	st = status -sb
+	co = checkout
+	br = branch -v
+	lg = log --oneline --graph --decorate

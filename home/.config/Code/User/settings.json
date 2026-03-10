@@ -36,7 +36,7 @@
   ],
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.minimap.enabled": true,
-  "editor.hover.enabled": true,
+  "editor.hover.enabled": "on",
   "editor.fontSize": 14.5,
   "editor.lineHeight": 16.5,
   "editor.letterSpacing": 0,

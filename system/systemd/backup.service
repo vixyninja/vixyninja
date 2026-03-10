@@ -1,0 +1,8 @@
+[Unit]
+Description=Backup dotfiles and ssh directory
+After=network.target
+
+[Service]
+Type=oneshot
+User=%i
+ExecStart=%h/dotfiles/scripts/server/backup.sh
