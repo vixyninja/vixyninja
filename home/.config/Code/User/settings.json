@@ -8,7 +8,6 @@
   "workbench.editor.wrapTabs": true,
   "workbench.editor.tabSizing": "fixed",
   "workbench.editor.defaultBinaryEditor": "default",
-  "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.tree.stickyScrollMaxItemCount": 4,
@@ -181,29 +180,6 @@
     "-tags=wireinject"
   ],
   // =========================================
-  // JAVASCRIPT / TYPESCRIPT SETTINGS
-  // =========================================
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "javascript.validate.enable": false,
-  "typescript.validate.enable": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true,
-  "[javascript]": {
-    "editor.suggestSelection": "recentlyUsed",
-    "editor.suggest.showKeywords": false
-  },
-  "files.associations": {
-    "*.html": "html",
-    "**/templates/*.html": "django-html",
-    "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
-    "*.env": "dotenv",
-    "*.ini": "dotenv"
-  },
-  // =========================================
   // SPELL CHECKER SETTINGS
   // =========================================
   "cSpell.enabled": true,
@@ -229,11 +205,6 @@
   "material-icon-theme.opacity": 1,
   "material-icon-theme.saturation": 1,
   "material-icon-theme.hidesExplorerArrows": false,
-  // -------- Prettier --------
-  "prettier.printWidth": 120,
-  "prettier.singleAttributePerLine": true,
-  "prettier.singleQuote": true,
-  "prettier.tabWidth": 2,
   // -------- GitLens --------
   "gitlens.views.branches.files.layout": "list",
   "gitlens.gitCommands.skipConfirmations": [
@@ -323,6 +294,12 @@
       "strikethrough": false
     }
   ],
+  // =========================================
+  // MARKDOWN SETTINGS
+  // =========================================
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor",
+  },
   // =========================================
   // PROTOBUF SETTINGS
   // =========================================
