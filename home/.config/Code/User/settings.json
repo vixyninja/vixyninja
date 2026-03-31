@@ -151,7 +151,6 @@
     "**/dist": true,
     "**/build": true,
     "**/.build": true,
-    "**/.gh-pages": true
   },
   // =========================================
   // TERMINAL SETTINGS
@@ -304,6 +303,32 @@
   // PROTOBUF SETTINGS
   // =========================================
   "protobuf.protoc.path": "/usr/bin/protoc",
+  "json.schemaDownload.trustedDomains": {
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://turborepo.com": true,
+    "https://www.schemastore.org/": true
+  },
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  // =========================================
+  // PYTHON SETTINGS
+  // =========================================
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+  },
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
   // =========================================
   // MISC
   // =========================================
