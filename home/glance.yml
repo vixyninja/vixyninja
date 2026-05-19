@@ -1,0 +1,411 @@
+theme:
+  background-color: 180 10 8
+  primary-color: 150 80 55
+  positive-color: 150 80 55
+  negative-color: 0 70 50
+  contrast-multiplier: 1.2
+  text-saturation-multiplier: 0.7
+  custom-css-file: /app/config/custom.css
+
+pages:
+  # ==================== TECH ====================
+  - name: Tech
+    head-widgets:
+      - type: markets
+        hide-header: true
+        markets:
+          - symbol: BTC-USD
+            name: Bitcoin
+          - symbol: ETH-USD
+            name: Ethereum
+          - symbol: SOL-USD
+            name: Solana
+    columns:
+      - size: small
+        widgets:
+          - type: clock
+            hour-format: 24h
+            timezones:
+              - timezone: Asia/Ho_Chi_Minh
+                label: Saigon
+
+          - type: rss
+            title: AI / ML
+            limit: 10
+            collapse-after: -1
+            cache: 1h
+            feeds:
+              - url: https://openai.com/blog/rss.xml
+                title: OpenAI
+              - url: https://huggingface.co/blog/feed.xml
+                title: Hugging Face
+              - url: https://machinelearningmastery.com/feed/
+                title: ML Mastery
+              - url: https://deepmind.google/blog/rss.xml
+                title: DeepMind
+
+          - type: rss
+            title: DevOps / Infra
+            limit: 10
+            collapse-after: -1
+            cache: 1h
+            feeds:
+              - url: https://www.docker.com/feed/
+                title: Docker Blog
+              - url: https://kubernetes.io/feed.xml
+                title: Kubernetes
+              - url: https://blog.golang.org/feed.atom
+                title: Go Blog
+              - url: https://github.blog/feed/
+                title: GitHub Blog
+
+      - size: full
+        widgets:
+          - type: hacker-news
+            limit: 15
+            collapse-after: -1
+
+          - type: group
+            widgets:
+              - type: reddit
+                subreddit: programming
+                limit: 10
+                collapse-after: -1
+                show-thumbnails: true
+              - type: reddit
+                subreddit: technology
+                limit: 10
+                collapse-after: -1
+                show-thumbnails: true
+
+          - type: lobsters
+            collapse-after: -1
+
+          - type: group
+            widgets:
+              - type: reddit
+                subreddit: selfhosted
+                limit: 8
+                collapse-after: -1
+                show-thumbnails: true
+              - type: reddit
+                subreddit: devops
+                limit: 8
+                collapse-after: -1
+                show-thumbnails: true
+
+          - type: rss
+            title: Tech Blogs
+            limit: 10
+            collapse-after: -1
+            cache: 2h
+            feeds:
+              - url: https://blog.cloudflare.com/rss/
+                title: Cloudflare Blog
+              - url: https://engineering.fb.com/feed/
+                title: Meta Engineering
+              - url: https://aws.amazon.com/blogs/aws/feed/
+                title: AWS Blog
+
+      - size: small
+        widgets:
+          - type: rss
+            title: Tech News
+            limit: 12
+            collapse-after: -1
+            cache: 1h
+            feeds:
+              - url: https://techcrunch.com/feed/
+                title: TechCrunch
+              - url: https://arstechnica.com/feed/
+                title: Ars Technica
+              - url: https://www.theverge.com/rss/index.xml
+                title: The Verge
+              - url: https://feeds.feedburner.com/TheHackersNews
+                title: THN Security
+
+          - type: rss
+            title: GitHub Trending (Daily)
+            limit: 10
+            collapse-after: -1
+            cache: 3h
+            feeds:
+              - url: https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml
+                title: All Languages
+
+          - type: releases
+            title: Releases
+            cache: 1d
+            repositories:
+              - ollama/ollama
+              - langchain-ai/langchain
+              - vercel/next.js
+              - docker/compose
+              - grafana/grafana
+              - prometheus/prometheus
+
+  # ==================== GADGETS ====================
+  - name: Gadgets
+    columns:
+      - size: small
+        widgets:
+          - type: reddit
+            title: r/smartphones
+            subreddit: smartphones
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/apple
+            subreddit: apple
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/buildapc
+            subreddit: buildapc
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+      - size: full
+        widgets:
+          - type: rss
+            title: Gadget News
+            limit: 15
+            collapse-after: -1
+            cache: 1h
+            feeds:
+              - url: https://www.theverge.com/rss/index.xml
+                title: The Verge
+              - url: https://www.engadget.com/rss.xml
+                title: Engadget
+              - url: https://9to5mac.com/feed/
+                title: 9to5Mac
+              - url: https://9to5google.com/feed/
+                title: 9to5Google
+
+          - type: group
+            widgets:
+              - type: reddit
+                subreddit: gadgets
+                limit: 10
+                collapse-after: -1
+                show-thumbnails: true
+              - type: reddit
+                subreddit: hardware
+                limit: 10
+                collapse-after: -1
+                show-thumbnails: true
+
+          - type: reddit
+            title: r/Android
+            subreddit: Android
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+      - size: small
+        widgets:
+          - type: reddit
+            title: r/laptops
+            subreddit: laptops
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/pcgaming
+            subreddit: pcgaming
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+  # ==================== FINANCE ====================
+  - name: Finance
+    head-widgets:
+      - type: markets
+        hide-header: true
+        markets:
+          - symbol: SPY
+            name: S&P 500
+          - symbol: QQQ
+            name: Nasdaq
+          - symbol: DIA
+            name: Dow Jones
+          - symbol: GC=F
+            name: Gold
+          - symbol: BTC-USD
+            name: Bitcoin
+          - symbol: ETH-USD
+            name: Ethereum
+    columns:
+      - size: small
+        widgets:
+          - type: markets
+            title: Crypto
+            markets:
+              - symbol: BTC-USD
+                name: Bitcoin
+              - symbol: ETH-USD
+                name: Ethereum
+              - symbol: SOL-USD
+                name: Solana
+              - symbol: BNB-USD
+                name: BNB
+              - symbol: XRP-USD
+                name: XRP
+
+          - type: markets
+            title: Stocks
+            markets:
+              - symbol: NVDA
+                name: NVIDIA
+              - symbol: AAPL
+                name: Apple
+              - symbol: MSFT
+                name: Microsoft
+              - symbol: GOOG
+                name: Google
+              - symbol: AMZN
+                name: Amazon
+              - symbol: META
+                name: Meta
+
+      - size: full
+        widgets:
+          - type: reddit
+            title: r/cryptocurrency
+            subreddit: cryptocurrency
+            limit: 12
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/wallstreetbets
+            subreddit: wallstreetbets
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/stocks
+            subreddit: stocks
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+      - size: small
+        widgets:
+          - type: reddit
+            title: r/investing
+            subreddit: investing
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/CryptoMarkets
+            subreddit: CryptoMarkets
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+  # ==================== FUN ====================
+  - name: Fun
+    columns:
+      - size: small
+        widgets:
+          - type: twitch-channels
+            title: Twitch
+            channels:
+              - shroud
+              - summit1g
+              - piratesoftware
+
+          - type: reddit
+            title: r/science
+            subreddit: science
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/space
+            subreddit: space
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+      - size: full
+        widgets:
+          - type: rss
+            title: Gaming News
+            limit: 12
+            collapse-after: -1
+            cache: 1h
+            feeds:
+              - url: https://www.gamespot.com/feeds/mashup/
+                title: GameSpot
+              - url: https://www.ign.com/rss/articles/feed
+                title: IGN
+              - url: https://www.pcgamer.com/rss/
+                title: PC Gamer
+
+          - type: group
+            widgets:
+              - type: reddit
+                subreddit: gaming
+                limit: 10
+                collapse-after: -1
+                show-thumbnails: true
+              - type: reddit
+                subreddit: gamedeals
+                limit: 10
+                collapse-after: -1
+                show-thumbnails: true
+
+          - type: rss
+            title: Science
+            limit: 10
+            collapse-after: -1
+            cache: 2h
+            feeds:
+              - url: https://www.nasa.gov/feed/
+                title: NASA
+              - url: https://www.nature.com/nature.rss
+                title: Nature
+              - url: https://www.newscientist.com/section/news/feed/
+                title: New Scientist
+
+          - type: reddit
+            title: r/indiegaming
+            subreddit: indiegaming
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+      - size: small
+        widgets:
+          - type: reddit
+            title: r/futurology
+            subreddit: futurology
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/esports
+            subreddit: esports
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
+
+          - type: reddit
+            title: r/startups
+            subreddit: startups
+            limit: 10
+            collapse-after: -1
+            show-thumbnails: true
