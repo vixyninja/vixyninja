@@ -10,6 +10,7 @@
   "workbench.editor.defaultBinaryEditor": "default",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
+  "workbench.colorTheme": "Dark+",
   "workbench.tree.stickyScrollMaxItemCount": 4,
   "workbench.tree.indent": 4,
   "workbench.tree.enableStickyScroll": false,
@@ -107,6 +108,7 @@
   "editor.cursorSurroundingLines": 15,
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "phase",
+  "editor.largeFileOptimizations": true,
   // =========================================
   // GIT AND GITHUB COPILOT SETTINGS
   // =========================================
@@ -215,45 +217,6 @@
   // -------- Make / Build tools --------
   "makefile.configureOnOpen": false,
   // =========================================
-  // FORMATTER PER LANGUAGE
-  // =========================================
-  "[handlebars]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[properties]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
-  },
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[go]": {
-    "editor.defaultFormatter": "golang.go",
-  },
-  "[dotenv]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  // =========================================
   // COMMENTS
   // =========================================
   "better-comments.tags": [
@@ -307,6 +270,8 @@
     "https://developer.microsoft.com/json-schemas/": true,
     "https://json-schema.org/": true,
     "https://json.schemastore.org/": true,
+    "https://models.dev/model-schema.json": true,
+    "https://opencode.ai": true,
     "https://raw.githubusercontent.com/devcontainers/spec/": true,
     "https://raw.githubusercontent.com/microsoft/vscode/": true,
     "https://schemastore.azurewebsites.net/": true,
