@@ -1,32 +1,112 @@
-<h1 align="center"><b>Hi , I'm Huynh Hong Vy </b><img src="./assets/hi.gif" width="35"></h1>
-<p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=24&pause=1000&color=F7DB1A&center=true&vCenter=true&width=1080&height=24&lines=Life+is+a+journey+of+self-discovery+and+endless+possibilities.+;Every+person+has+a+unique+story+waiting+to+be+told.;The+beauty+of+life+lies+in+embracing+both+joys+and+challenges" alt="Typing SVG" /></a>
-</p>
+<div align="center">
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=vixyninja)
+# Huynh Hong Vy
 
-## <picture><img src = "./assets/about_me.gif" width =30px>**👋 About Me**</picture>
-Hi, I’m **Huynh Hong Vy** — a curious learner and passionate developer at heart.  
-I graduated from **FPT Polytechnic** and I'm currently continuing my journey at **UIT (University of Information Technology)**.
+### Backend Engineer · Systems Thinker · Homelab Builder
 
-I enjoy turning ideas into simple, useful digital experiences.  
-Whether it's solving problems, learning new things, or collaborating with others — I'm always excited to grow and explore more in the world of technology.
+I build reliable backend systems, automate everything worth repeating,
+and keep infrastructure understandable enough to rebuild from scratch.
 
-Let’s connect and create something meaningful together.
-<br>
-## Skill Set
+[![GitHub](https://img.shields.io/badge/GitHub-vixyninja-181717?style=for-the-badge&logo=github)](https://github.com/vixyninja)
 
-<img src="https://skillicons.dev/icons?i=js,typescript,go,nodejs,express,nest,angular&perline=16&theme=light" alt="My Skills" />
+</div>
 
-## 📫 Let’s Connect
+---
 
-I’m always open to new challenges, collaborations, or freelance gigs.  
-Feel free to reach out — let’s build something awesome together!
+## Engineering, without the noise
 
-## Contribution Snake
+Backend engineer focused on **Go**, distributed services, developer tooling, and infrastructure automation. I care about explicit trade-offs, observable systems, small interfaces, and software that remains boring under pressure.
+
+Currently studying at the **University of Information Technology (UIT)** after graduating from **FPT Polytechnic**. Outside application code, I maintain a reproducible Ubuntu homelab: hardened hosts, automated backups, modular shell tooling, and configuration-as-code.
+
+```text
+Design for failure. Automate recovery. Keep the happy path simple.
+```
+
+## Core stack
+
+<div align="center">
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
+</div>
+
+| Area | Focus |
+| --- | --- |
+| Backend | Go, Node.js, NestJS, REST APIs, service design |
+| Data | PostgreSQL, Redis, schema and query design |
+| Infrastructure | Docker, Nginx, systemd, UFW, Fail2ban |
+| Developer experience | Zsh, Neovim, tmux, Git, reproducible environments |
+| Frontend fluency | TypeScript, Angular |
+
+## What lives here
+
+This profile repository also doubles as my **machine blueprint**: a versioned, modular environment for development and an Ubuntu home server.
+
+```text
+vixyninja/
+├── zsh/        modular shell configuration
+├── home/       editor, terminal, Git, and CLI preferences
+├── scripts/    provisioning, backup, restore, and maintenance
+├── system/     systemd, UFW, Fail2ban, sysctl, and cron
+├── services/   Nginx and service configuration
+└── docs/       setup, security, recovery, and troubleshooting
+```
+
+One command provisions packages, Zsh, Docker, Go, Node.js, baseline security, and symlinked dotfiles:
+
+```bash
+./bootstrap.sh
+```
+
+> Public configuration only. Credentials, private keys, tokens, and host-specific secrets stay outside Git.
+
+## Working principles
+
+- **Correctness first:** explicit errors, bounded concurrency, predictable behavior.
+- **Operational by default:** logs, health checks, backups, and recovery are part of design.
+- **Small over clever:** standard tools, focused abstractions, minimal moving parts.
+- **Automate repetition:** if a machine can do it safely, it should.
+- **Own the lifecycle:** build, ship, observe, maintain, and eventually simplify.
+
+## GitHub signal
+
+<div align="center">
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://github.com/vixyninja/vixyninja/blob/output/github-contribution-grid-snake.svg">
-  </picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=vixyninja&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=vixyninja&show_icons=true&hide_border=true&rank_icon=github&theme=default">
+  <img height="165" alt="Huynh Hong Vy's GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=vixyninja&show_icons=true&hide_border=true&rank_icon=github&theme=default">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=vixyninja&layout=compact&hide_border=true&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=vixyninja&layout=compact&hide_border=true&theme=default">
+  <img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vixyninja&layout=compact&hide_border=true&theme=default">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vixyninja/vixyninja/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vixyninja/vixyninja/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/vixyninja/vixyninja/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+## Build something durable
+
+Open to backend engineering opportunities, infrastructure work, and collaborations where reliability matters.
+
+**Find me on GitHub:** [@vixyninja](https://github.com/vixyninja)
+
+<div align="center">
+
+<sub>Ship useful software. Leave systems clearer than you found them.</sub>
+
+</div>
