@@ -17,7 +17,7 @@ and keep infrastructure understandable enough to rebuild from scratch.
 
 Backend engineer focused on **Go**, distributed services, developer tooling, and infrastructure automation. I care about explicit trade-offs, observable systems, small interfaces, and software that remains boring under pressure.
 
-Currently studying at the **University of Information Technology (UIT)** after graduating from **FPT Polytechnic**. Outside application code, I maintain a reproducible Ubuntu homelab: hardened hosts, automated backups, modular shell tooling, and configuration-as-code.
+Currently studying at the **University of Information Technology (UIT)** after graduating from **FPT Polytechnic**. Outside application code, I keep my shell and editor setup as versioned dotfiles, and run an Ubuntu homelab with configuration-as-code.
 
 ```text
 Design for failure. Automate recovery. Keep the happy path simple.
@@ -38,33 +38,27 @@ Design for failure. Automate recovery. Keep the happy path simple.
 
 </div>
 
-| Area | Focus |
-| --- | --- |
-| Backend | Go, Node.js, NestJS, REST APIs, service design |
-| Data | PostgreSQL, Redis, schema and query design |
-| Infrastructure | Docker, Nginx, systemd, UFW, Fail2ban |
+| Area                 | Focus                                             |
+| -------------------- | ------------------------------------------------- |
+| Backend              | Go, Node.js, NestJS, REST APIs, service design    |
+| Data                 | PostgreSQL, Redis, schema and query design        |
+| Infrastructure       | Docker, Nginx, systemd, UFW, Fail2ban             |
 | Developer experience | Zsh, Neovim, tmux, Git, reproducible environments |
-| Frontend fluency | TypeScript, Angular |
+| Frontend fluency     | TypeScript, Angular                               |
 
 ## What lives here
 
-This profile repository also doubles as my **machine blueprint**: a versioned, modular environment for development and an Ubuntu home server.
+This profile repository doubles as my **dotfiles**: a single-file Zsh configuration, editor and CLI preferences, and Nginx snippets.
 
 ```text
 vixyninja/
-├── zsh/        modular shell configuration
+├── zsh/        single-file Zsh configuration
 ├── home/       editor, terminal, Git, and CLI preferences
-├── scripts/    provisioning, backup, restore, and maintenance
-├── system/     systemd, UFW, Fail2ban, sysctl, and cron
-├── services/   Nginx and service configuration
-└── docs/       setup, security, recovery, and troubleshooting
+├── services/   Nginx service configuration
+└── docs/       setup notes
 ```
 
-One command provisions packages, Zsh, Docker, Go, Node.js, baseline security, and symlinked dotfiles:
-
-```bash
-./bootstrap.sh
-```
+Symlink `zsh/.zshrc` and the files under `home/` into `$HOME`; `home/.profile` wires `ZDOTDIR` so login shells pick up the managed config. See `docs/dotfiles.md` for the full setup.
 
 > Public configuration only. Credentials, private keys, tokens, and host-specific secrets stay outside Git.
 
