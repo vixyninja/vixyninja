@@ -1,14 +1,74 @@
+.DS_Store
+*.log
+*.bak
+*.pre-restore.*
+
 .env
 .env.*
 !.env.example
+*.local.json
+*.local.toml
+*.local.yaml
+*.local.yml
+
 *.pem
 *.key
 *.crt
 *.pub
 
-.DS_Store
 node_modules/
 dist/
 build/
 coverage/
-*.bak
+
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Claude Code runtime state, in case a whitelist ever widens by accident
+.claude/projects/
+.claude/sessions/
+.claude/session-env/
+.claude/shell-snapshots/
+.claude/paste-cache/
+.claude/file-history/
+.claude/statsig/
+.claude/backups/
+.claude/cache/
+.claude/ide/
+.claude/jobs/
+.claude/tasks/
+.claude/plans/
+.claude/plugins/
+.claude/daemon/
+.claude/history.jsonl
+.claude/settings.local.json
+.claude/.claude.json
+.claude/stats-cache.json
+.claude/mcp-needs-auth-cache.json
+
+# Codex: everything except the authored instructions and preference fragment
+.codex/auth.json
+.codex/sessions/
+.codex/cache/
+.codex/plugins/
+.codex/skills/
+.codex/dictation-history/
+.codex/*-history.jsonl
+.codex/session_index.jsonl
+.codex/.codex-global-state.json*
+.codex/installation_id
+
+# OpenCode
+.opencode/auth.json
+.opencode/.remember/
+.opencode/skills/
+.opencode/package-lock.json
+
+# Cross-agent skills: the lock file is versioned, the downloaded bodies are not
+.agents/skills/
+
+# Local agent tooling state
+.serena/
+.remember/

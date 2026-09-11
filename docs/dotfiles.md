@@ -8,9 +8,13 @@ Personal configuration for a Zsh-first development environment: shell setup, edi
 vixyninja/
 ├── zsh/          single-file Zsh configuration
 ├── home/         files to symlink into $HOME
-├── services/     Nginx server & snippet configs
+├── services/     Glance and Nginx service configs
+├── scripts/      bootstrap, backup, restore, diff, audit
 └── docs/         setup notes
 ```
+
+AI agent configuration lives in `.claude/`, `.codex/` and `.opencode/` — see
+[ai-agents.md](ai-agents.md).
 
 ## zsh
 
@@ -34,24 +38,30 @@ Symlink what you want into `$HOME`:
 - `.tmux.conf`, `.vimrc`
 - `.editorconfig`, `.prettierrc`, `.prettierignore`
 - `.config/` — nvim, zed, VS Code, golangci-lint, dart
-- `glance.yml` — Glance dashboard config (`~/.config/glance/glance.yml`)
 
 ## Install
 
 ```bash
 DOTFILES=$HOME/dotfiles
 git clone git@github.com:vixyninja/vixyninja.git "$DOTFILES"
+cd "$DOTFILES"
+./scripts/bootstrap.sh
+```
 
-ln -sf "$DOTFILES/zsh/.zshrc" "$HOME/.zshrc"
-ln -sf "$DOTFILES/home/.profile" "$HOME/.profile"
-# ... symlink any other home/ files you use
+`bootstrap.sh` links `.profile` and `.zshrc`, then restores the AI configuration. The
+remaining `home/` files are opt-in — symlink the ones you want:
+
+```bash
+ln -sf "$DOTFILES/home/.gitconfig" "$HOME/.gitconfig"
+ln -sf "$DOTFILES/home/.tmux.conf" "$HOME/.tmux.conf"
+# ... and so on
 ```
 
 After a re-login, `.profile` exports `DOTFILES` and `ZDOTDIR`, and zsh reads `zsh/.zshrc` automatically.
 
 ## services
 
-`services/nginx` holds server and snippet configs. Copy them into `/etc/nginx` on the host as needed, adapting server names and upstream ports.
+See [services.md](services.md) for Glance and Nginx.
 
 ## Secrets
 

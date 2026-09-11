@@ -1,0 +1,7 @@
+# Portable Codex preferences only.
+# Merge these keys into ~/.codex/config.toml -- do not replace that file, it also
+# holds machine-generated plugin, marketplace and project-trust state.
+
+model = "gpt-6-astra"
+model_reasoning_effort = "low"
+service_tier = "default"

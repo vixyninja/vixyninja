@@ -1,0 +1,75 @@
+{
+  "respectGitignore": true,
+  "cleanupPeriodDays": 30,
+  "env": {
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+  },
+  "permissions": {
+    "allow": [
+      "mcp__serena__activate_project",
+      "mcp__serena__find_symbol",
+      "mcp__serena__find_referencing_symbols",
+      "mcp__serena__find_declaration",
+      "mcp__serena__find_implementations",
+      "mcp__serena__get_symbols_overview",
+      "mcp__serena__get_diagnostics_for_file",
+      "mcp__serena__search_for_pattern",
+      "mcp__serena__find_file",
+      "mcp__serena__list_dir",
+      "mcp__serena__read_file",
+      "mcp__serena__get_current_config",
+      "mcp__serena__list_memories",
+      "mcp__serena__read_memory",
+      "Bash(go build *)",
+      "Bash(go test *)",
+      "Bash(go vet *)",
+      "Bash(go mod *)",
+      "Bash(gofumpt *)",
+      "Bash(golangci-lint *)",
+      "Bash(staticcheck *)"
+    ],
+    "deny": [
+      "EnterWorktree",
+      "Read(~/.ssh/**)",
+      "Read(//**/id_rsa*)",
+      "Read(//**/id_ed25519*)",
+      "Read(//**/*.pem)",
+      "Read(~/.aws/credentials)",
+      "Read(~/.config/gcloud/**)",
+      "Read(~/.kube/config)"
+    ],
+    "ask": [
+      "Read(//**/.env)",
+      "Read(//**/.env.*)",
+      "Read(//**/*.tfstate)",
+      "Read(//**/*.tfstate.backup)"
+    ]
+  },
+  "model": "claude-opus-5",
+  "disableClaudeAiConnectors": true,
+  "worktree": {
+    "bgIsolation": "none"
+  },
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "remember@claude-plugins-official": true,
+    "redis-development@claude-plugins-official": true,
+    "ponytail@ponytail": true
+  },
+  "extraKnownMarketplaces": {
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    }
+  },
+  "effortLevel": "high",
+  "skipWorkflowUsageWarning": true,
+  "theme": "dark",
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true
+}

@@ -1,0 +1,198 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "teamsoclo/gpt-5.6-sol",
+  "small_model": "teamsoclo/gpt-5.6-sol",
+  "provider": {
+    "teamsoclo": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "TeamSoclo",
+      "options": {
+        "baseURL": "https://gpt.teamsoclo.site/v1",
+        "apiKey": "{env:OPENCODE_API_KEY}"
+      },
+      "models": {
+        "gpt-5.6-sol": {
+          "name": "GPT-5.6 Sol",
+          "tool_call": true,
+          "reasoning": true
+        }
+      }
+    },
+    "openrouter": {
+      "whitelist": [
+        "deepseek/deepseek-v4-flash-0731"
+      ],
+      "models": {
+        "deepseek/deepseek-v4-flash-0731": {
+          "name": "DeepSeek V4 Flash 0731",
+          "family": "deepseek-v4",
+          "release_date": "2026-07-31",
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true,
+          "tool_call": true,
+          "interleaved": true,
+          "cost": {
+            "input": 0.06,
+            "output": 0.12,
+            "cache_read": 0.012
+          },
+          "limit": {
+            "context": 1310720,
+            "input": 1310720,
+            "output": 943718
+          },
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "status": "active",
+          "variants": {
+            "low": {},
+            "high": {},
+            "max": {}
+          }
+        }
+      }
+    }
+  },
+  "mcp": {
+    "codegraph": {
+      "command": [
+        "/Users/vixyninja/go/bin/codegraph",
+        "mcp"
+      ],
+      "enabled": true,
+      "type": "local"
+    }
+  },
+  // "provider": {
+  //   "All In Token": {
+  //     "options": {
+  //       "apiKey": "{env:OPENCODE_API_KEY}",
+  //       "baseURL": "https://api-staging.thinkingx.vip/v1",
+  //       "headers": {
+  //         "Authorization": "{env:OPENCODE_AUTH_HEADER}"
+  //       }
+  //     },
+  //     "models": {
+  //       "claude-opus-4-8": {
+  //         "name": "Claude Opus 4.8"
+  //       },
+  //       "claude-opus-4-7": {
+  //         "name": "Claude Opus 4.7"
+  //       },
+  //       "claude-opus-4-6": {
+  //         "name": "Claude Opus 4.6"
+  //       },
+  //       "gpt-5.6-sol": {
+  //         "name": "GPT-5.6 Sol"
+  //       },
+  //       "gpt-5.6-terra": {
+  //         "name": "GPT-5.6 Terra"
+  //       },
+  //       "gpt-5.6-luna": {
+  //         "name": "GPT-5.6 Luna"
+  //       },
+  //       "gpt-5.5": {
+  //         "name": "GPT-5.5"
+  //       },
+  //       "gemini-3.1-pro-preview": {
+  //         "name": "Gemini 3.1 Pro Preview"
+  //       },
+  //       "gemini-2.5-pro": {
+  //         "name": "Gemini 2.5 Pro"
+  //       }
+  //     }
+  //   },
+  //   "ollama": {
+  //     "npm": "@ai-sdk/openai-compatible",
+  //     "name": "Ollama",
+  //     "options": {
+  //       "baseURL": "https://ollama-staging.wayjetai.com/v1",
+  //       "headers": {
+  //         "Authorization": "{env:OPENCODE_AUTH_HEADER}"
+  //       }
+  //     },
+  //     "models": {
+  //       "qwen3.6:35b-a3b-q4_K_M": {
+  //         "name": "Qwen 3.6 35B A3B Q4_K_M"
+  //       }
+  //     }
+  //   },
+  //   "local-gateway": {
+  //     "npm": "@ai-sdk/openai-compatible",
+  //     "name": "Local Gateway",
+  //     "options": {
+  //       "baseURL": "http://localhost:20128/v1",
+  //       "apiKey": "{env:OPENCODE_API_KEY}"
+  //     },
+  //     "models": {
+  //       "ag/gemini-3.6-flash-high": {
+  //         "name": "Gemini 3.6 Flash High"
+  //       },
+  //       "ag/gemini-3.6-flash-medium": {
+  //         "name": "Gemini 3.6 Flash Medium"
+  //       },
+  //       "ag/gemini-3.6-flash-low": {
+  //         "name": "Gemini 3.6 Flash Low"
+  //       },
+  //       "ag/gemini-3.5-flash-high": {
+  //         "name": "Gemini 3.5 Flash High"
+  //       },
+  //       "ag/gemini-3.5-flash-low": {
+  //         "name": "Gemini 3.5 Flash Low"
+  //       },
+  //       "ag/gemini-3.5-flash-extra-low": {
+  //         "name": "Gemini 3.5 Flash Extra Low"
+  //       },
+  //       "ag/gemini-3-flash": {
+  //         "name": "Gemini 3 Flash"
+  //       },
+  //       "ag/gemini-3-flash-agent": {
+  //         "name": "Gemini 3 Flash Agent"
+  //       },
+  //       "ag/gemini-3.1-pro-low": {
+  //         "name": "Gemini 3.1 Pro Low"
+  //       },
+  //       "ag/gemini-pro-agent": {
+  //         "name": "Gemini Pro Agent"
+  //       },
+  //       "ag/claude-sonnet-4-6": {
+  //         "name": "Claude Sonnet 4.6"
+  //       },
+  //       "ag/claude-opus-4-6-thinking": {
+  //         "name": "Claude Opus 4.6 Thinking"
+  //       },
+  //       "ag/gpt-oss-120b-medium": {
+  //         "name": "GPT-OSS 120B Medium"
+  //       },
+  //       "cx/gpt-5.6-sol": {
+  //         "name": "GPT-5.6 Sol"
+  //       },
+  //       "cx/gpt-5.6-terra": {
+  //         "name": "GPT-5.6 Terra"
+  //       },
+  //       "cx/gpt-5.6-luna": {
+  //         "name": "GPT-5.6 Luna"
+  //       },
+  //       "cx/gpt-5.5": {
+  //         "name": "GPT-5.5"
+  //       },
+  //       "cx/gpt-5.4": {
+  //         "name": "GPT-5.4"
+  //       },
+  //       "cx/gpt-5.4-mini": {
+  //         "name": "GPT-5.4 Mini"
+  //       },
+  //       "cx/gpt-5.3-codex-spark": {
+  //         "name": "GPT-5.3 Codex Spark"
+  //       }
+  //     }
+  //   }
+  // },
+}
