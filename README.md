@@ -2,32 +2,22 @@
 
 # Huynh Hong Vy
 
-**Backend Engineer** — Go · distributed services · infrastructure automation
+**Go Developer**
 
-</div>
-
----
-
-I build backend systems that stay boring under pressure: explicit errors, bounded concurrency, and infrastructure I can rebuild from scratch.
-
-<div align="center">
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 [![Design for failure. Automate recovery. Keep the happy path simple.](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=17&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=620&height=40&lines=Design+for+failure.;Automate+recovery.;Keep+the+happy+path+simple.)](https://github.com/vixyninja)
 
 </div>
 
-### Stack
+---
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+I like software that stays boring under pressure: explicit errors, predictable behavior, few moving parts.
 
 ### How I work
 
-- Correctness before cleverness — standard tools, small interfaces, few moving parts.
+- Correctness before cleverness. Standard tools over custom ones.
 - Logs, health checks, backups, and rollback are part of the design, not an afterthought.
-- If a machine can do it safely, automate it.
 
 ### Activity
 
@@ -43,12 +33,12 @@ I build backend systems that stay boring under pressure: explicit errors, bounde
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vixyninja/vixyninja/main/profile-3d-contrib/profile-night-green.svg">
-  <img alt="A year of contributions, as a 3D calendar" src="https://raw.githubusercontent.com/vixyninja/vixyninja/main/profile-3d-contrib/profile-green-animate.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vixyninja/vixyninja/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Snake eating the contribution graph" src="https://raw.githubusercontent.com/vixyninja/vixyninja/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
 
 ---
 
-Open to backend and infrastructure work where reliability matters — [@vixyninja](https://github.com/vixyninja)
+Open to work where reliability matters. Find me at [@vixyninja](https://github.com/vixyninja).
